@@ -1,0 +1,30 @@
+---
+sidebar: sidebar 
+permalink: reference_paid_subscription_data.html 
+keywords: paid, subscription, data, saas, backup, microsoft 365 
+summary: Se você não renovar sua versão licenciada do SaaS Backup para Microsoft 365, os dados usados durante sua assinatura serão excluídos. 
+---
+= Eliminação de dados
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Se você não renovar sua versão licenciada do SaaS Backup para Microsoft 365, os dados usados durante sua assinatura serão excluídos da seguinte forma:
+
+|===
+| Se a sua subscrição paga do SaaS Backup for... | Número de dias após o término da assinatura paga | Os seus dados são... 
+
+
+| Expirou | 1-30 dias | Disponível: O administrador tem acesso normal e pode executar backups e restaurações manuais. O SaaS Backup continua exibindo alertas e enviando notificações. 
+
+
+| Desativado | 31-60 dias | Desativado: O administrador não tem acesso ao portal SaaS Backup. Se a subscrição for renovada durante este período, os dados podem ser reativados. 
+
+
+| Desprovisionado | 61 ou mais dias | Excluído: Todos os dados são excluídos e sua conta de locatário é removida. 
+|===

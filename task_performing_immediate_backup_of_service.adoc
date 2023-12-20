@@ -1,0 +1,66 @@
+---
+sidebar: sidebar 
+permalink: task_performing_immediate_backup_of_service.html 
+keywords: netapp, saas backup, microsoft 365, perform, performing, immediate, backup, service 
+summary: Conforme necessário, você pode executar um backup imediato de qualquer serviço Microsoft 365. 
+---
+= Faça um backup imediato de um serviço
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Conforme necessário, você pode executar um backup imediato de qualquer serviço Microsoft 365.
+
+.Passos
+. No Painel, clique no número acima *PROTEGIDO* na caixa do serviço para o qual você deseja executar um backup imediato.
+. Selecione a opção de cópia de segurança.
++
+.. Para o Exchange
++
+*** Se você estiver fazendo backup de caixas de correio compartilhadas, clique na guia *COMPARTILHADO*.
+*** Se você estiver fazendo backup de caixas de correio de arquivo, clique na guia *ARCHIVE*.
+*** Se você estiver fazendo backup de caixas de correio regulares, permaneça na guia *USUÁRIO*.
+
+
+.. Para SharePoint
++
+*** Se você estiver fazendo backup de sites, permaneça na guia *SITES*.
+
+
+.. Para OneDrive
++
+*** Se você estiver fazendo backup de usuários, permaneça na guia *USUÁRIO*.
+
+
+.. Para grupos do Microsoft 365
++
+*** Se você estiver fazendo backup de grupos, permaneça na guia *GRUPOS*.
+*** Se você estiver fazendo backup de equipes, clique na guia *EQUIPES*.
++
+
+NOTE: As mensagens do TeamsChat só são salvas se o TeamsChat estiver habilitado nas configurações. Contacte link:https://mysupport.netapp.com/["Suporte"] para ativar esta funcionalidade.
+
++
+
+NOTE: Devido às limitações da API, o backup SaaS não pode diferenciar canais públicos e privados.
+
+
+
+
+
+. Selecione os itens que deseja fazer backup.
+. Clique em *Backup Now*.
++
+image:backup_now.gif["Botão fazer backup agora"]
+
++
+É apresentada uma mensagem a indicar que os serviços selecionados serão colocados na fila de trabalhos para cópia de segurança.
+
+. Clique em *Confirm*. É apresentada uma mensagem a indicar que o trabalho de cópia de segurança foi criado.
+. Clique em *Ver o progresso do trabalho* para monitorizar o progresso da cópia de segurança.
+

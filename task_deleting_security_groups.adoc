@@ -1,0 +1,23 @@
+---
+sidebar: sidebar 
+permalink: task_deleting_security_groups.html 
+keywords: netapp, saas backup, microsoft 365, delete, deleting, security, groups 
+summary: Se um grupo de segurança estiver sendo utilizado em uma regra definida pelo usuário, ele não poderá ser excluído. Você deve remover a regra definida pelo usuário e excluir o grupo de segurança. 
+---
+= Eliminar grupos de segurança
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Se um grupo de segurança estiver sendo utilizado em uma regra definida pelo usuário, ele não poderá ser excluído. Você deve remover a regra definida pelo usuário e excluir o grupo de segurança. <<task_deleting_rules.adoc#deleting-rules,Eliminar regras>>
+
+.Passos
+. Clique em *CONFIGURAÇÕES DA CONTA*.
+. Clique em *GRUPOS DE SEGURANÇA*.
+. Clique no ícone de exclusão ao lado do grupo que deseja remover.
+

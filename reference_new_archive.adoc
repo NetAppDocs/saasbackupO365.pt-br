@@ -1,0 +1,97 @@
+---
+sidebar: sidebar 
+permalink: reference_new_archived.html 
+keywords: 'what"s new, features, new, release notes, enhancements' 
+summary: O SaaS Backup para Microsoft 365 apresenta regularmente uma nova versão para oferecer novos recursos, aprimoramentos e correções de bugs. 
+---
+= Novos recursos e atualizações - Arquivado
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+A seguir está uma lista arquivada de novos recursos adicionados ao SaaS Backup para Microsoft 365.
+
+
+
+== Dezembro de 2018
+
+* O SaaS Backup para Microsoft 365 agora pode ser adquirido pelo AppDirect Marketplace e pelo CANCOM Marketplace.
+
+
+
+
+== Agosto de 2018
+
+* A interface do utilizador foi redesenhada para uma melhor experiência e eficiência do utilizador.
+* As políticas de retenção de dados foram atualizadas para permitir que os dados sejam mantidos por 3 anos. <<concept_backup_policies.adoc#backup_policies,Políticas de backup>>
+
+
+
+
+== Maio de 2018
+
+* O NetApp Cloud Control foi renomeado para NetApp Backup para Microsoft 365.
+* Agora você pode limpar usuários, coleções de sites e grupos do Microsoft 365, removendo completamente todos os dados associados do SaaS Backup para Microsoft 365. <<task_purging.adoc#purging-a-user-site-collection-or-office-365-group,Limpe um usuário, um conjunto de sites ou um grupo do Microsoft 365>>
+* O SaaS Backup agora descobre grupos públicos e privados para grupos do Microsoft 365.
+
+
+
+
+== Abril de 2018
+
+* O SaaS Backup para Microsoft 365 agora oferece suporte a caixas de correio compartilhadas para o Microsoft Office Exchange Online.
++
+As caixas de correio compartilhadas são descobertas através do uso de uma conta de serviço criada automaticamente. Se você não tiver ativado o serviço para o Microsoft Office Exchange Online antes desta atualização, a conta de serviço automático para caixas de correio compartilhadas é criada pelo SaaS Backup quando você ativa o Microsoft Office Exchange Online. Se o seu serviço para o Microsoft Office Exchange Online já estiver ativado, você deve conceder permissão SaaS Backup para criar a conta de serviço automático, para que suas caixas de correio compartilhadas possam ser descobertas e backups. <<task_granting_permissions_to_enable_shared_mailboxes.adoc#granting-permissions-to-enable-shared-mailboxes,Conceda permissões para habilitar caixas de correio compartilhadas>>
+
++
+Após a criação da conta de serviço automático, as caixas de correio partilhadas serão automaticamente descobertas durante a próxima sincronização agendada da sua conta de utilizador. Se você quiser que suas caixas de correio compartilhadas sejam descobertas imediatamente, você pode <<task_discovering_new.adoc#sdiscovering-new-mailboxes-sites-and-groups,descubra suas contas de usuário imediatamente>>.
+
+
+
+
+
+== Março de 2018
+
+O local em que você insere um código de ativação para uma avaliação gratuita foi movido para o assistente Adicionar um provedor de serviços:
+
+image:subscription_types_free_trial.jpg["Captura de tela que mostra onde você insere um código de ativação na página assinatura quando o Teste Gratuito é selecionado."]
+
+
+
+== Fevereiro de 2018
+
+* A filtragem baseada no ID do modelo está agora disponível para o Microsoft SharePoint Online. <<task_creating_user_defined_filter.adoc#creating-a-user-defined-filer,Crie um filtro definido pelo usuário>>
+* Agora você pode baixar o log de atividade da conta de usuário do SaaS Backup para Microsoft 365 para um arquivo .csv. link:task_downloading_data.html["Transferir registos"]
+* A sincronização de contas de usuário, sites e grupos entre o SaaS Backup para Microsoft 365 e seu serviço agora está habilitada por padrão.
+* A inclusão do histórico de versões de backup agora está ativada por padrão. O número padrão de versões é 20. link:concept_backup_settings.html["Definições de cópia de segurança"]
+
+
+
+
+== Janeiro de 2018
+
+* O log de atividades agora exibe o nome do ID de usuário associado a cada ação executada dentro do SaaS Backup para Microsoft 365.
+* Agora você pode sincronizar manualmente suas permissões de usuário com o Azure ative Directory a partir do SaaS Backup para Microsoft 365.
+* O Microsoft Exchange Online agora suporta exportação para PST para restauração no nível da pasta.
+
+
+
+
+== Novembro de 2017
+
+* O SaaS Backup para Microsoft 365 agora oferece suporte ao Azure Blob como uma opção para o storage fornecido pelo SaaS Backup.
+* O SaaS Backup para Microsoft 365 agora é compatível com o Microsoft 365 Groups para backup e restauração. O Microsoft Exchange Online ou o Microsoft SharePoint Online têm de ser ativados antes de poder ativar os grupos do Microsoft 365. Os grupos do Microsoft 365 só podem ser protegidos pela política de backup de camada 3.
+* O Microsoft Exchange Online agora suporta exportação para PST para restauração no nível da caixa de correio.
+
+
+
+
+== Outubro de 2017
+
+* Podem ser criadas regras que permitem mover automaticamente os usuários para um nível de backup pré-selecionado com base em critérios predefinidos. Você pode criar regras para o Microsoft Exchange Online e Microsoft OneDrive for Business. Não é possível criar regras para o Microsoft SharePoint Online. <<task_creating_rules.adoc#creating-rules,Crie novas regras>>
+

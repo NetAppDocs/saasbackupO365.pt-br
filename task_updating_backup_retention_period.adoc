@@ -1,0 +1,58 @@
+---
+sidebar: sidebar 
+permalink: task_updating_backup_retention_period.html 
+keywords: netapp, saas backup, microsoft 365, backup, retention, period, update, updating, specific, tier, tenants 
+summary: Você pode atualizar o período de tempo, em número de anos, em que os dados são retidos para camadas individuais, caixas de correio, sites e MySites para 7 anos, 10 anos ou ilimitados. 
+---
+= Atualize o período de retenção da cópia de segurança
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Você pode atualizar o período de tempo, em número de anos, em que os dados são retidos para camadas individuais, caixas de correio, sites e MySites para 7 anos, 10 anos ou ilimitados. O SaaS Backup mantém os dados de backup durante o período de retenção, se a assinatura estiver ativa. Se todas as suas categorias de backup tiverem o mesmo período de retenção, você poderá fazer uma atualização global para alterar simultaneamente o período de retenção de todos os locatários.
+
+
+
+== Atualize o período de retenção de backup para um nível específico
+
+.Passos
+. No *Dashboard*, clique em qualquer serviço.
+. Em *políticas de backup*, clique no menu suspenso ao lado de *PERÍODO DE RETENÇÃO* para o nível que você deseja alterar.
+. Selecione o período de retenção pretendido na lista predefinida.
+. CLIQUE EM *PERÍODO DE RETENÇÃO DE ATUALIZAÇÃO*.
+
+
+
+
+== Atualize o período de retenção de backup para usuários individuais e locatários
+
+.Passos
+. Clique no ícone de configuração image:configure_icon.gif["Ícone de configuração"]ao lado do seu ID de usuário do SaaS Backup no canto superior esquerdo.
+. Clique em *CONFIGURAÇÕES DA CONTA*.
+. CLIQUE EM *RETER E PURGAR*.
+. Para atualizar a política de retenção de dados para um usuário específico em um serviço específico, faça o seguinte:
++
+.. Em *políticas de retenção de dados*, clique no menu suspenso ao lado de *TIPO DE PROVEDOR* e selecione o provedor.
+.. Clique no menu suspenso ao lado de *NOME DO SERVIÇO* e selecione o serviço.
+.. Clique no menu suspenso ao lado de *PERÍODO DE RETENÇÃO* e selecione o período desejado na lista de horários predefinidos.
+.. Na caixa de pesquisa, comece a inserir o usuário, site ou MySite que você deseja atualizar.
+.. Selecione o usuário, o site ou o MySite que você deseja nos resultados correspondentes.
+.. Clique image:bluecircle_icon.gif["Sinal de adição"]em .
+.. Continue a pesquisar e adicionar caixas de correio, sites ou MySites individuais, conforme necessário.
+.. Clique em *Salvar*. As caixas de correio, sites ou MySites individuais selecionados são atualizados para o período de retenção selecionado.
+
+
+. Para atualizar a política de retenção de dados no nível do locatário, faça o seguinte:
++
+.. Em *políticas de retenção de dados de nível de locatário*, clique no menu suspenso ao lado de *PERÍODO DE RETENÇÃO* e selecione o período desejado na lista de horários predefinidos.
+.. Clique em *Salvar*. Todos os níveis de política de backup são atualizados para o período de retenção selecionado.
+
+
+

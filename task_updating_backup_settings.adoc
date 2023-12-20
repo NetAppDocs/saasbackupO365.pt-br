@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: task_updating_backup_settings.html 
+keywords: netapp, saas backup, microsoft 365, backup, setting, update, updating, autosync, enable, restore, recoverable, items, backup, list, views, version, history, workflows 
+summary: Você pode atualizar suas configurações de backup para controlar várias opções de backup. As configurações de backup disponíveis variam de acordo com o serviço. 
+---
+= Atualizar definições de cópia de segurança
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Pode atualizar o <<concept_backup_settings.adoc#backup-settings,definições de cópia de segurança>> para controlar várias opções de cópia de segurança. <<concept_backup_settings.adoc#backup-settings,definições de cópia de segurança>>Disponível varia de acordo com o serviço.
+
+.Passos
+. Clique em *Serviços* no painel de navegação esquerdo.
++
+image:services.gif["Captura de tela do botão de serviços"]
+
+. Clique em Microsoft 365.
++
+image:mso365_settings.gif["Captura de tela do botão Microsoft 365"]
+
+. Em *Gerenciar Serviços*, clique no ícone de configurações de backup image:configure_icon.gif["Captura de tela do ícone de configuração"]ao lado do serviço que você precisa atualizar. É apresentada uma lista das definições de cópia de segurança disponíveis para o serviço selecionado.
+. Selecione as definições de cópia de segurança pretendidas.
+. Clique em *Confirm*.
+

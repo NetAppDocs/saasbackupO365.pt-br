@@ -1,0 +1,25 @@
+---
+sidebar: sidebar 
+permalink: task_viewing_deprovisioned.html 
+keywords: netapp, saas backup, microsoft 365, view, viewing, jobs, deprovisioned, deleted, accounts, mailboxes, sites, mysites 
+summary: Você pode exibir uma lista de caixas de correio ou contas de usuário que foram excluídas. 
+---
+= Exibir uma lista de itens desprovisionados
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Você pode exibir uma lista de caixas de correio ou contas de usuário que foram desprovisionadas.
+
+.Passos
+. Clique em *services* no painel de navegação esquerdo.
+. No serviço desejado, clique no número de itens desprotegidos.
+. Clique no separador *DEPROVISIOND*.
+

@@ -1,0 +1,26 @@
+---
+sidebar: sidebar 
+permalink: task_completing_signing_up_marketplace.html 
+keywords: netapp, saas backup, microsoft 365, getting started, sign up, signing up, paid, subscription, licensed, version 
+summary: Você pode se inscrever no SaaS Backup para Microsoft 365 com sua conta de serviço do Microsoft 365 ou com sua conta SSO do NetApp. 
+---
+= Inscreva-se com uma assinatura paga através de um Marketplace
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Se você comprou sua licença através de um Marketplace, suas informações de licença serão exibidas. Conclua o processo de inscrição seguindo estas etapas.
+
+.Passos
+. Clique em *seguinte*.
+. Selecione o seu *Amazon S3* ou *Azure Blob* como seu tipo de armazenamento.
+. Selecione a região de armazenamento para o backup. Você deve selecionar a região que é a mais próxima da localização física dos dados que você está fazendo backup. A região *preferencial* é marcada como tal.
+. Clique em *seguinte*.
+. Revise sua configuração e clique em *Salvar*.
+. Se você ainda não o fez, link:task_activate_support.html["ative o suporte"].
+

@@ -1,0 +1,47 @@
+---
+sidebar: sidebar 
+permalink: task_creating_rules.html 
+keywords: netapp, saas backup, microsoft 365, create, creating, rules, user, users, applied 
+summary: As regras permitem que você mova automaticamente os usuários para um nível de backup pré-selecionado com base em critérios predefinidos. 
+---
+= Crie novas regras
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+As regras permitem que você mova automaticamente os usuários para um nível de backup pré-selecionado com base em critérios predefinidos.
+
+Você pode criar regras para grupos do Microsoft Exchange Online, OneDrive for Business, SharePoint Online e Microsoft Office 365.
+
+Você deve aplicar um filtro definido pelo usuário aos seus dados antes de criar uma regra. Os filtros aplicados são exibidos abaixo do ícone *filtro*. Os filtros padrão do NetApp SaaS Backup para Microsoft 365 aparecem em cinza. Os filtros definidos pelo usuário aparecem em azul claro. image:rules.gif["Exemplo de filtro definido pelo usuário e filtro definido pelo SaaS Backup para criar regras"]
+
+<<task_creating_user_defined_filter.adoc#creating-user-defined-filter,Crie um filtro definido pelo usuário>>
+
+Você pode criar várias regras. As regras são aplicadas na ordem em que aparecem na lista *Gerenciar regras*.
+
+.Passos
+. No Dashboard, clique no número acima *DESPROTEGIDO* na caixa do serviço para o qual você deseja criar regras.
++
+image:number_protected_unprotected.gif[""]
+
++
+Se nenhum filtro criado pelo usuário for aplicado, image:create_rule.gif["Captura de tela do botão criar regra"]não será exibido.
+
+. Clique em *filtro*.
++
+image:filter.gif["Botão de filtro"]
+
+. Clique no menu suspenso *Select* e selecione seu filtro. É apresentado um campo de pesquisa.
+. Introduza os seus critérios de pesquisa.
+. Clique em *Apply Filter* (aplicar filtro).
+. Clique em *criar regra*.
+. Introduza um nome para a regra.
+. Para *Grupo de destino*, selecione o nível para o qual deseja que os usuários que atendem aos critérios da regra sejam movidos.
+. Selecione *aplicar a itens existentes* se quiser que a regra seja aplicada imediatamente a todos os itens desprotegidos. Se não estiver selecionada, a regra será aplicada a itens recém-descobertos e a quaisquer itens desprotegidos da próxima vez que novos itens forem descobertos.
+. Se tiver várias regras, pode clicar em image:up_down_rules_icon.gif["Botão para mover as regras para cima ou para baixo em prioridade"] para mover uma regra para cima ou para baixo na lista. As regras são aplicadas na ordem em que aparecem na lista.
+

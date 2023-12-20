@@ -1,0 +1,32 @@
+---
+sidebar: sidebar 
+permalink: task_releasing_a_user_license.html 
+keywords: netapp, saas backup, release, releasing, reassigned, user, license, shared, regular, archive, mailbox 
+summary: Qualquer usuário de caixa de correio normal ou de arquivo, protegido ou desprotegido, consome uma licença. Se uma licença não for mais necessária para um usuário específico, você pode liberar a licença para que ela possa ser reatribuída. 
+---
+= Liberar uma licença de usuário
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Qualquer usuário de caixa de correio normal ou de arquivo, protegido ou desprotegido, consome uma licença. Se uma licença não for mais necessária para um usuário específico, você pode liberar a licença para que ela possa ser reatribuída. Quando uma licença de usuário é liberada, o usuário é movido para a camada desprotegida e os backups desse usuário são descontinuados.
+
+
+NOTE: Caixas de correio compartilhadas não consomem uma licença.
+
+.Passos
+. Clique image:configure_icon.gif["Captura de tela do ícone de configuração"] ao lado do ID de usuário do SaaS Backup no canto superior esquerdo.
+. Selecione *DEFINIÇÕES DA CONTA*.
+. CLIQUE EM *RETER E PURGAR*.
+. Em *Licença de Liberação*, comece a digitar o nome da conta do usuário cuja licença você deseja liberar.
+. Quando a conta for encontrada, selecione-a na lista preenchida automaticamente e clique image:bluecircle_icon.gif["Ícone de sinal de mais azul"]em .
+. Adicione contas adicionais, se necessário.
+. Clique em *Release*.
+. Clique em *Sim, libere a(s) licença(s)*.
+. Clique em *Confirm*.
+

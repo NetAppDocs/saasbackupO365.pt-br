@@ -1,0 +1,25 @@
+---
+sidebar: sidebar 
+permalink: task_deleting_admin_roles_from_a_user_account.html 
+keywords: netapp, saas backup, microsoft 365, delete, deleted, deleting, role-based accounts, administrative roles, privileges, removing 
+summary: Se todas as funções administrativas forem excluídas da conta de um usuário, o usuário será desconetado automaticamente do SaaS Backup para Microsoft 365. 
+---
+= Excluir todas as funções administrativas de uma conta de usuário
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Se todas as funções administrativas forem excluídas da conta de um usuário, o usuário será desconetado automaticamente do SaaS Backup para Microsoft 365.
+
+.Passos
+. Clique no ícone de definições image:configure_icon.gif["Captura de tela do ícone de configuração"]junto à sua ID de utilizador no canto superior esquerdo do ecrã.
+. Clique em *CONFIGURAÇÕES DA CONTA*.
+. Clique em *GESTÃO DE FUNÇÕES*.
+. Clique em *Excluir usuário* ao lado do nome de usuário que você deseja remover.
+. Clique em *Sim*.
+

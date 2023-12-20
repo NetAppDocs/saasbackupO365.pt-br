@@ -1,0 +1,26 @@
+---
+sidebar: sidebar 
+permalink: task_scheduling_first_backup.html 
+keywords: netapp, saas backup, microsoft 365, getting started, schedule, scheduling, first, performing 
+summary: Quando você configura o SaaS Backup para Microsoft 365, por padrão, seus dados ficam desprotegidos e não programados para um backup. Você precisa mover seus dados para uma categoria protegida para iniciar o primeiro backup. 
+---
+= Agende seu primeiro backup
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Quando você configura o SaaS Backup para Microsoft 365, por padrão, seus dados ficam desprotegidos. Você precisa mover seus dados da categoria não protegida para uma das categorias protegidas para que seu backup seja feito durante o próximo backup agendado da categoria selecionada.
+
+.Passos
+. No Dashboard, selecione o serviço que contém os dados não protegidos.
+. Clique em *view* ao lado do número de caixas de correio não protegidas, MySites, Sites ou grupos.
+. Selecione os itens que você deseja proteger.
+. Clique no menu *Groups*. image:groups_menu.gif["Captura de tela do botão Menu de grupos de Backup do SaaS"]
+. Selecione o nível ** para a política de backup que você deseja atribuir. Consulte link:concept_backup_policies.html["Políticas de backup"] para obter uma descrição dos níveis de política de backup.
+. Clique em *aplicar*.
+

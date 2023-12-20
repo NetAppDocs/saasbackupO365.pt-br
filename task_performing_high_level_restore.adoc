@@ -1,0 +1,75 @@
+---
+sidebar: sidebar 
+permalink: task_performing_high_level_restore.html 
+keywords: netapp, saas backup, perform, high-level restore, microsoft 365, Exchange, OneDrive 
+summary: Você segue o mesmo procedimento para executar restaurações de alto nível de caixas de correio para grupos Microsoft Exchange Online, MySites para Microsoft OneDrive for Business, Sites para Microsoft SharePoint Online e Microsoft 365. 
+---
+= Execute uma restauração de serviço de alto nível
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Você segue o mesmo procedimento para executar restaurações de alto nível de caixas de correio para grupos Microsoft Exchange Online, MySites para Microsoft OneDrive for Business, Sites para Microsoft SharePoint Online e Microsoft 365.
+
+Por padrão, somente o backup mais recente está disponível para restauração. Outras opções disponíveis incluem:
+
+image:backup_for_restore_availability.png["Backups disponíveis para restauração"]
+
+.Passos
+. No Painel, clique no número acima *PROTEGIDO* na caixa do serviço para o qual você deseja executar a restauração.
+. Selecione o nome da caixa de correio, grupo, equipa, mysite ou site a restaurar.
+. Selecione uma opção de restauração:
++
+
+NOTE: Se você selecionar a opção Exportar para restauração PST, o link fornecido é válido por sete dias e é pré-autenticado.
+
++
+.. Se você estiver restaurando caixas de correio para *Microsoft Exchange Online* selecione uma das seguintes opções:
++
+
+NOTE: Restaurar caixas de correio com mensagens maiores que 140 MB pode encontrar falhas de upload de volta para o servidor. Recomendamos que você execute uma restauração de alto nível usando a opção Exportar para PST. Para obter mais informações, link:https://docs.microsoft.com/en-us/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#message-limits["Limites do Microsoft Exchange Online: Limites de mensagens"]consulte .
+
++
+*** Restaurar para a mesma caixa de correio
+*** Exportar para PST se você exportar para PST, você receberá um e-mail de notificação com a localização do arquivo PST quando a exportação for concluída.
+*** Restaurar para outra caixa de correio se restaurar para outra caixa de correio, tem de introduzir a caixa de correio de destino no campo de pesquisa. Você pode digitar uma parte do endereço de e-mail de destino no campo de pesquisa para iniciar uma pesquisa automática para caixas de correio de destino correspondentes.
+
+
+.. Se você estiver restaurando grupos para *grupos do Microsoft Office 365*, selecione uma das seguintes opções:
++
+*** Restaure para o mesmo grupo
+*** Restaurar para outro grupo
+*** Exportar dados se você exportar, um arquivo PST é criado com seus arquivos do Microsoft Exchange e um arquivo .zip é criado com seus sites do Microsoft SharePoint. Você receberá um e-mail de notificação contendo a localização do arquivo PST e um URL autenticado para o local do arquivo .zip.
+
+
+.. Se você estiver restaurando equipes em *grupos do Microsoft Office 365*, selecione uma das seguintes opções:
++
+*** Restaure para a mesma equipe
+*** Restaurar para outra equipe isso é ideal para situações em que uma equipe é excluída do Microsoft 365. Você deve criar uma nova equipe para usar essa opção de restauração. Se você criou recentemente uma nova equipe no MS Teams, descubra-a sincronizando o serviço. Vá para *Configurações de serviços* à esquerda. Clique em *Office 365*. Em *Gerenciar serviços*, clique em *Sincronizar agora* para grupos do Microsoft 365.
+*** Exportar dados se você exportar dados, você precisa baixá-los. Vá para relatórios no menu à esquerda. Encontre o trabalho de exportação de dados. Clique em *Total de pastas*. Em seguida, clique em *Export Data Download Link*. Um arquivo zip é baixado. Abra o arquivo zip para extrair os dados.
+
+
+.. Se você estiver restaurando MySites para *Microsoft OneDrive for Business*, selecione uma das seguintes opções:
++
+*** Restaurar para o mesmo MySite
+*** Restaurar para um MySite diferente se você restaurar para um MySite diferente, digite o MySite de destino no campo de pesquisa. Você pode digitar uma parte do MySite de destino no campo de pesquisa para iniciar uma pesquisa automática para MySites de destino correspondentes.
+*** Exportar dados se você exportar, um arquivo .zip é criado com seus MySites. Você receberá um e-mail de notificação contendo um URL autenticado para o local do arquivo .zip.
+
+
+.. Se você estiver restaurando sites para *Microsoft SharePoint Online*, selecione uma das seguintes opções:
++
+*** Restaure para o mesmo site se você selecionar *Restaurar somente funções*, somente as funções e permissões serão restauradas. image:sharepoint_restore_only_roles.png["A imagem mostra a janela de restauração com a opção Restore Only Roles (Restaurar somente funções) selecionada"]
+*** Restaurar para outro site se você restaurar para outro site, insira o site de destino no campo de pesquisa. Você pode digitar uma parte do site de destino no campo de pesquisa para iniciar uma pesquisa automática por sites de destino correspondentes.
+*** Exportar dados se você exportar, um arquivo .zip será criado com a coleção de sites. Você receberá um e-mail de notificação contendo um URL autenticado para o local do arquivo .zip.
+
+
+
+
+. Clique em *Confirm*. É apresentada uma mensagem a indicar que o trabalho de restauro foi criado.
+. Clique em *Exibir o andamento do trabalho* para monitorar o progresso da restauração.
+

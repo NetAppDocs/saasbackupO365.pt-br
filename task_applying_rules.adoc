@@ -1,0 +1,32 @@
+---
+sidebar: sidebar 
+permalink: task_applying_rules.html 
+keywords: netapp, saas backup, microsoft 365, creating, rules, managing, adding, apply, applied, applying 
+summary: Você pode aplicar regras existentes a itens desprotegidos, alterar a ordem em que as regras são aplicadas e excluir regras. 
+---
+= Aplicar regras existentes
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+As regras permitem que você mova automaticamente os usuários para um nível de backup pré-selecionado com base em critérios predefinidos.
+
+Você pode aplicar regras existentes a itens desprotegidos, alterar a ordem em que as regras são aplicadas e excluir regras.
+
+.Passos
+. No Dashboard, clique no número acima *DESPROTEGIDO* na caixa do serviço para o qual você deseja criar regras.
++
+image:number_protected_unprotected.gif[""]
+
+. Clique em *filtro*.
++
+image:filter.gif["Captura de tela do botão de menu suspenso do filtro"]
+
+. Clique em *regras*. As regras existentes são exibidas.
+. Clique em *Apply Now* (aplicar agora) para aplicar a regra a itens não protegidos existentes.
+

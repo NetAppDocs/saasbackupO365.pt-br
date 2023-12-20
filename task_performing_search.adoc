@@ -1,0 +1,53 @@
+---
+sidebar: sidebar 
+permalink: task_performing_search.html 
+keywords: netapp, saas backup, microsoft 365, search, searching, advanced search, perform, performing, exchange, sharePoint, oneDrive, online 
+summary: Você pode usar a pesquisa inline para encontrar conteúdo específico. 
+---
+= Realize uma pesquisa
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+No SaaS Backup para Microsoft 365, você pode pesquisar seus dados protegidos em todos os serviços - Exchange Online, SharePoint Online, OneDrive for Business e grupos e equipes.
+
+Você pode pesquisar instâncias desprotegidas, mas isso renderá resultados de pesquisa somente se os backups anteriores tiverem sido feitos.
+
+Para melhorar os resultados da pesquisa, use os seguintes critérios:
+
+* Três carateres no mínimo
+
+
+
+NOTE: Se você inserir mais de 3 carateres, os resultados da pesquisa anterior para 3 carateres podem permanecer nos resultados da pesquisa.
+
+* Entrada alfanumérica
+* Aspas simples para uma correspondência exata de uma palavra, cadeia de palavras ou número. Ex: "Orçamento 2014".
+
+
+Siga as etapas abaixo para pesquisar suas instâncias protegidas.
+
+.Passos
+. No Painel, clique no número acima *protegido* em qualquer serviço no qual você deseja pesquisar. image:number_protected_unprotected_highlight_protected.gif["captura de tela de instâncias protegidas destacadas"]
+. Encontre a caixa de pesquisa no canto superior direito da página. image:search_box_exchange.png["Captura de tela da caixa de pesquisa no Exchange Online"]
++
+Em seguida, insira as informações solicitadas na caixa de pesquisa, como "nome" ou "e-mail" na caixa de pesquisa. image:search_box_exchange_prompts.png["Captura de tela da caixa de pesquisa com prompts de pesquisa no Exchange Online"]
+
++
+.. PESQUISE por nome ou endereço de e-mail para o Microsoft Exchange Online.
+.. PESQUISE por nome, e-mail ou MySite para Microsoft OneDrive for Business.
+.. PESQUISE por nome do site ou url para o Microsoft SharePoint Online.
+.. PESQUISE por nome do grupo ou nome da equipe para grupos e equipes do Microsoft 365.
+
+
+. Todos os resultados que se encaixam ou correspondem aos critérios de pesquisa serão exibidos.
+
+
+Você também pode realizar uma pesquisa em níveis mais granulares em cada serviço. Se você vir um menu suspenso à direita da caixa de pesquisa, selecione *Arquivo* ou *pasta* no menu suspenso para restringir os resultados da pesquisa.
+
+image:search_box_dropdown_menu_file&folder.png["caixa de pesquisa com arquivo / pasta menu suspenso"]

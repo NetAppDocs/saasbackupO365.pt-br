@@ -1,0 +1,191 @@
+---
+sidebar: sidebar 
+permalink: task_performing_granular_level_restore_sharepoint.html 
+keywords: netapp, saas backup, perform, performing, restore, microsoft 365, granular restores, Microsoft SharePoint Online, sites 
+summary: Você pode usar o SaaS Backup para Microsoft 365 para realizar restaurações granulares para o Microsoft SharePoint Online. 
+---
+= Execute uma restauração de nível granular para o Microsoft SharePoint Online
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+No Microsoft SharePoint Online, você pode restaurar itens de nível granular para um único usuário, como pastas ou arquivos individuais. Você também pode restaurar itens de nível granular para um site de grupo do Microsoft 365 e blocos de anotações do OneNote. As funções e permissões do site são protegidas automaticamente como parte de uma restauração ou backup.
+
+Por padrão, somente o backup mais recente está disponível para restauração. Outras opções disponíveis incluem:
+
+image:backup_for_restore_availability.png["Backups disponíveis para restauração"]
+
+A tabela indica as opções de restauração compatíveis com itens de nível granular.
+
+
+NOTE: Para as opções de restauração *Restaurar para o mesmo site* e *Restaurar para outro site*, os seguintes itens são restaurados como subsites no site selecionado com a convenção de nomenclatura <sitename_cc_timestamp>: *Local único*, *múltiplos sites* e *listas únicas/múltiplas* se 3 ou mais listas forem selecionadas.
+
+[cols="20,20a,20a,20a,40"]
+|===
+| Tipo de item | Restaurar para o mesmo local | Restaurar para outro site | Exportar dados | Onde encontrá-lo no SaaS Backup 
+
+
+| Itens únicos/múltiplos  a| 
+Sim
+ a| 
+Sim
+ a| 
+Não
+| SharePoint Online > Sites > <Site Name> > <List Name> 
+
+
+| Um único local  a| 
+Sim
+ a| 
+Sim
+ a| 
+Sim
+| SharePoint Online > Sites 
+
+
+| Vários locais  a| 
+Sim
+ a| 
+Sim
+ a| 
+Não
+| SharePoint Online > Sites 
+
+
+| Sites de comunicação  a| 
+Não
+ a| 
+Não
+ a| 
+Não
+| SharePoint Online > Sites 
+
+
+| Subsites únicos/múltiplos  a| 
+Sim
+ a| 
+Sim
+ a| 
+Sim
+| SharePoint Online > Sites > <Site name> > subsites 
+
+
+| Pastas simples/múltiplas  a| 
+Sim
+ a| 
+Sim
+ a| 
+Sim
+| SharePoint Online > Sites > <Site name> > <List name> 
+
+
+| Listas simples/múltiplas  a| 
+Sim
+ a| 
+Sim
+ a| 
+Sim
+| SharePoint Online > Sites > <Site name> 
+
+
+| Blocos de anotações simples/múltiplos do OneNote  a| 
+Sim
+ a| 
+Sim
+ a| 
+Sim
+| SharePoint Online > Sites > <Site name> > <List name> 
+
+
+| Grupos de seções simples/múltiplas do OneNote  a| 
+Sim
+ a| 
+Sim
+ a| 
+Sim
+| SharePoint Online > Sites > <Site name> > <List name> > <Notebook folder> 
+
+
+| Seções simples/múltiplas do OneNote  a| 
+Sim
+ a| 
+Sim
+ a| 
+Não
+| SharePoint Online > Sites > <Site name> > <List name> > <Notebook folder> 
+|===
+.Passos
+. No Painel, clique no número acima *PROTEGIDO* na caixa SharePoint.
+. Clique no site para o qual você precisa executar a restauração de nível granular.
+. Selecione a categoria que você precisa restaurar.
++
+
+NOTE: Se você quiser restaurar itens individuais específicos dentro de uma categoria, clique na categoria conteúdo e selecione os itens individuais.
+
+. Para restaurar a partir do backup mais recente, clique em *Restore*. Para restaurar uma versão anterior do item, clique em *Mostrar versões*, selecione a versão que deseja restaurar e clique em *Restaurar*.
+. Selecione uma opção de restauração:
++
+** *Restaurar para o mesmo site* se você restaurar para o mesmo site, por padrão, uma pasta de restauração com o carimbo de data e hora atual será criada no local do arquivo original que contém a cópia de backup.
++
+Se você selecionar *Restore only Roles*, *Overwrite with merge* ou *replace the existing content*, a única opção de restauração é *Restore to the same site*.
+
++
+[cols="24a,24a"]
+|===
+| Se selecionar | Restaurar para o mesmo local 
+
+
+ a| 
+Restaurar apenas funções
+ a| 
+todos os tipos de itens
+
+
+
+ a| 
+Substituir com mesclagem
+ a| 
+todos os itens, exceto o nível do local
+
+
+
+ a| 
+Substitua por conteúdo existente
+ a| 
+apenas nível de item
+
+|===
++
+Se você selecionar *Restaurar somente funções*, somente as funções e permissões serão restauradas. image:sharepoint_granular_restore_only_roles.png["A imagem mostra a janela de restauração de nível granular com a opção Restore Only Roles selecionada"]
+
++
+Se você selecionar a opção *Substituir com mesclagem*, nenhuma pasta de restauração será criada. Se a versão do arquivo de backup e o arquivo atual corresponderem, o backup será restaurado para o local original. Qualquer novo conteúdo no destino é ignorado e não afetado. Por exemplo, se o backup contiver File1 version5 e o destino contiver File1 versão 6, uma restauração com a opção *Substituir com Mesclar* selecionada falhará.
+
++
+Se você selecionar a opção *Substituir o conteúdo existente*, a versão atual dos dados será completamente substituída pela cópia de backup.
+
+** *Restaurar para outro site*
++
+Se restaurar para outro site, terá de introduzir o local de destino no campo de pesquisa. Você pode digitar uma parte do site no campo de pesquisa para iniciar uma pesquisa automática por sites correspondentes.
+
+** *Exportar dados*
++
+Se você exportar dados, você precisa baixá-los. Vá para *Reporting* no menu à esquerda. Encontre o trabalho de exportação de dados. Clique em *Total de pastas*. Em seguida, clique em *Export Data Download Link*. Um arquivo zip é baixado. Abra o arquivo zip para extrair os dados.
+
++
+
+NOTE: Se você selecionar a opção de restauração *Exportar dados*, o link fornecido será válido por sete dias e será pré-autenticado.
+
+
+
+. Clique em *Confirm*.
++
+É apresentada uma mensagem a indicar que o trabalho de restauro foi criado.
+
+. Clique em *Exibir o andamento do trabalho* para monitorar o progresso da restauração.
+

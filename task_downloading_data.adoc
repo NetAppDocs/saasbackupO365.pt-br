@@ -1,0 +1,45 @@
+---
+sidebar: sidebar 
+permalink: task_downloading_data.html 
+keywords: netapp, saas backup, microsoft 365, jobs, history, activity, log, download, downloading 
+summary: Você pode exibir ou baixar um log das atividades do SaaS Backup e do histórico de tarefas. 
+---
+= Transferir registos
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+O SaaS Backup para Microsoft 365 armazena um log do histórico de trabalhos no SaaS Backup. Pode transferir o histórico de trabalhos e uma lista de trabalhos concluídos.
+
+
+
+== Transfira o registo de atividades
+
+Um log é armazenado de todas as atividades que ocorrem dentro do SaaS Backup para Microsoft 365. O log contém a data de cada ação executada juntamente com o nome do usuário que executou a ação. Pode transferir o registo de atividade para um ficheiro .csv.
+
+.Passos
+. Clique image:reporting.gif["Captura de tela do botão de relatório"]no painel de navegação esquerdo.
+. Clique no separador *Registo de atividades*. É apresentada uma lista de todas as atividades do SaaS Backup para Microsoft 365.
+. Clique image:download_activitylog.gif["Clique no botão de download no canto direito do Registro de atividades"]em . O log de atividade é baixado como um arquivo .csv.
+
+
+
+
+== Transfira um registo de trabalhos concluídos
+
+Pode transferir uma folha de cálculo Excel de trabalhos concluídos com êxito.
+
+.Passos
+. Clique em *trabalhos* no painel de navegação esquerdo.
+. Clique no trabalho concluído recentemente que pretende transferir.
+. Clique em *successful* sob o número de trabalhos concluídos com êxito.
++
+image:completed_jobs.gif["Captura de tela dos trabalhos concluídos"]
+
+. Clique em *Download* no canto superior direito. O registo é transferido.
+

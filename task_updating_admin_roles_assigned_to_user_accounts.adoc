@@ -1,0 +1,26 @@
+---
+sidebar: sidebar 
+permalink: task_updating_admin_roles_assigned_to_user_accounts.html 
+keywords: netapp, saas backup, microsoft 365, role-based accounts, administrative roles, privileges, update, updating, changing 
+summary: Se uma atualização for feita para as funções administrativas de um usuário, o usuário será desconetado automaticamente do SaaS Backup para Microsoft 365. Quando o usuário faz login novamente, as atualizações de função administrativa são refletidas na conta do usuário. 
+---
+= Atualizar funções administrativas atribuídas a contas de utilizador
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Se uma atualização for feita para as funções administrativas de um usuário, o usuário será desconetado automaticamente do SaaS Backup para Microsoft 365. Quando o usuário faz login novamente, as atualizações de função administrativa são refletidas na conta do usuário.
+
+.Passos
+. Clique no ícone de definições image:configure_icon.gif["Captura de tela do ícone de configuração"]junto à sua ID de utilizador no canto superior esquerdo do ecrã.
+. Clique em *CONFIGURAÇÕES DA CONTA*.
+. Clique em *GESTÃO DE FUNÇÕES*.
+. Clique em *Atualizar usuário* ao lado do nome de usuário que você deseja atualizar.
+. Clique no menu suspenso para selecionar a função. Pode atribuir uma ou mais funções a um utilizador.
+. Clique em *Confirm*.
+

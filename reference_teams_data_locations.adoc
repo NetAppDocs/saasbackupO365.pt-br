@@ -1,0 +1,73 @@
+---
+sidebar: sidebar 
+permalink: reference_teams_data_locations.html 
+keywords: netapp, saas backup, microsoft 365, microsoft teams, groups, sharepoint, exchange, onedrive, teams data, teams data locations, locations, teams, email, channels, documents, channel, chat, private channel, individual user chat, group chats, files 
+summary: Uma referência de tabela mostra onde localizar os dados das equipes no SaaS Backup. 
+---
+= Locais de dados das equipes
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Os dados do Microsoft Teams têm locais diferentes no SaaS Backup para Microsoft 365.
+
+A tabela mostra onde localizar os dados do Teams no SaaS Backup.
+
+[cols="12,64a"]
+|===
+| Dados das equipes | Onde está o SaaS Backup? 
+
+
+| E-mail das equipas  a| 
+Grupos do Microsoft 365 > equipas > SampleTeam > caixa de correio
+
+
+
+| Canais de equipas  a| 
+Grupos do Microsoft 365 > equipas > SampleTeam > Canais
+
+
+
+| Documentos do Canal padrão das equipes  a| 
+Grupos do Microsoft 365 > equipas > SampleTeam > SharePoint Site > documentos > SampleTeam-StdChannel
+
+
+
+| Bate-papo de canal padrão das equipes  a| 
+* Grupos do Microsoft 365 > equipes > SampleTeam > caixa de correio > conversas > Chat de equipe
+* Grupos do Microsoft 365 > equipas > SampleTeam > caixa de correio > correio > Histórico de conversação > Chat de equipa (localização atual)
+
+
+
+
+| Documentos do Canal Privado de equipes  a| 
+SharePoint > SampleTeam – SampleTeam-PrivChannel > documentos > SampleTeam-PrivChannel
+
+
+NOTE: Você encontrará uma coleção de sites separada com o nome " Nome da sua equipe – Nome do Canal Privado>". Você pode filtrar para estas coleções de sites com ID de modelo: TEAMCHANNEL nº 0.
+
+
+
+| Chat de canal privado de equipes  a| 
+* Exchange > "Usuário em Canal Privado" > Mail > conversas > Chat de equipe
+* Exchange > "Usuário em Canal Privado" > Mail > Histórico de conversas > Chat de equipe (localização real)
+
+
+
+
+| Bate-papo de usuário individual e bate-papo de grupo  a| 
+* Exchange > "Utilizador" > Mail > conversas > Chat de Equipa
+* Exchange > "Utilizador" > Mail > Histórico da conversação > Chat de Equipa (localização atual)
+
+
+
+
+| Arquivos compartilhados em bate-papo de usuário individual e bate-papo de grupo  a| 
+OneDrive > "Utilizador" > ficheiros > ficheiros de Chat do Microsoft Teams
+
+|===

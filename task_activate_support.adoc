@@ -1,0 +1,32 @@
+---
+sidebar: sidebar 
+permalink: task_activate_support.html 
+keywords: netapp, saas backup, microsoft 365, activating, activate, support, upgrade, upgrading, entitlement, marketplace, free trial, SSO 
+summary: Ativar o suporte permite-lhe aceder ao suporte técnico através do telefone, chat online ou sistema de Bilheteira Web. 
+---
+= Ative o suporte
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Se você adquiriu o SaaS Backup por meio do NetApp, o suporte é ativado por padrão. Se você comprou o SaaS Backup por meio de um Cloud Marketplace, como AWS, será necessário ativar o suporte. Ativar o suporte permite-lhe aceder ao suporte técnico através do telefone, chat online ou sistema de Bilheteira Web.
+
+Se você estiver atualizando a partir de uma versão de avaliação do SaaS Backup, poderá ativar o suporte antes ou depois de concluir o processo de atualização.
+
+.Antes de começar
+Para ativar o suporte, você deve ter um ID de usuário e senha SSO do NetApp. Se você não tiver uma conta SSO do NetApp, vá para http://register.netapp.com[] Registrar uma. Após o processamento da solicitação, você receberá uma notificação por e-mail contendo suas credenciais SSO do NetApp. Levará aproximadamente 24 horas para processar a solicitação e enviar o e-mail de notificação.
+
+.Passos
+. Clique image:services.gif["Captura de tela do botão de serviços"] no painel de navegação esquerdo.
+. Clique no ícone de configurações image:configure_icon.gif["Ícone de definições dos serviços MS"].
+. Na caixa *Ativar suporte*, clique em *Ativar*.
+. Introduza o nome de utilizador e a palavra-passe SSO do NetApp.
+. Clique em *Ativar*.
+
+
+O status do suporte agora é *Ativo*.

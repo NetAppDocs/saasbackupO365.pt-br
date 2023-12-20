@@ -1,0 +1,35 @@
+---
+sidebar: sidebar 
+permalink: task_assigning_admin_roles_to_user_accounts.html 
+keywords: netapp, saas backup, microsoft 365, assign, assigning, role-based accounts, administrative roles, privileges, granting, user, users, user accounts 
+summary: Você pode atribuir funções administrativas a contas de usuário para conceder Privileges administrativos a usuários selecionados para um ou mais serviços. 
+---
+= Atribua funções administrativas a contas de usuário
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Você pode atribuir funções administrativas a contas de usuário para conceder Privileges administrativos a usuários selecionados para um ou mais serviços.
+
+Você pode atribuir as seguintes funções aos usuários:
+
+* Locatário global: Concede Privileges administrativo a todos os serviços, destino de storage e atualizações de licença (renovação/atualização).
+* Administrador do Exchange: Concede Privileges administrativo apenas ao Microsoft Exchange Online. Outros serviços não podem ser visualizados ou modificados.
+* Administrador do OneDrive: Concede Privileges administrativo somente para o Microsoft OneDrive for Business. Outros serviços não podem ser visualizados ou modificados.
+* Administrador do SharePoint: Concede Privileges administrativo apenas ao Microsoft SharePoint Online. Outros serviços não podem ser visualizados ou modificados.
+
+
+.Passos
+. Clique no ícone de definições image:configure_icon.gif["Captura de tela do ícone de configuração"]junto à sua ID de utilizador no canto superior esquerdo do ecrã.
+. Clique em *CONFIGURAÇÕES DA CONTA*.
+. Clique em *GESTÃO DE FUNÇÕES*.
+. Clique no image:bluecircle_icon.gif["Captura de tela do ícone clicado para exibir as opções de função do usuário"] ícone.
+. Introduza o endereço de correio eletrónico do utilizador que pretende adicionar.
+. Clique no menu suspenso para selecionar a função. Pode atribuir uma ou mais funções a um utilizador.
+. Clique em *Confirm*.
+

@@ -1,0 +1,26 @@
+---
+sidebar: sidebar 
+permalink: task_adding_permissions.html 
+keywords: netapp, saas backup, microsoft 365, add, added, adding, permissions, service, account 
+summary: No NetApp SaaS Backup para Microsoft 365, você pode gerenciar suas contas de serviço, descobrir contas recém-adicionadas e definir notificações de conta. 
+---
+= Adicione permissões a contas de serviço
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Você pode gerenciar suas contas de serviço, descobrir contas recém-adicionadas e definir notificações de conta.
+
+Se necessário, você pode adicionar permissões a um usuário de conta de serviço. As contas de serviço são usadas para executar backups simultâneos com eficiência.
+
+.Passos
+. Clique em Serviços no painel de navegação esquerdo. image:services.gif["Captura de tela do botão de serviços"]
+. Clique no link Microsoft 365. image:mso365_settings.gif["Captura de tela do botão Microsoft 365"]
+. Clique no ícone * ao lado de *Gerenciar contas de serviço*.
+. Clique em *Confirm* para ser redirecionado para a página de login do Microsoft 365 para conceder permissões.
+

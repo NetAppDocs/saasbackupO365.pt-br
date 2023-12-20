@@ -1,0 +1,88 @@
+---
+sidebar: sidebar 
+permalink: concept_supported_templates_and_apps.html 
+keywords: netapp, saas backup, microsoft 365, backup, supported, templates, apps 
+summary: Apenas determinados modelos e aplicações são suportados para o Microsoft SharePoint Online. 
+---
+= Modelos e aplicativos suportados para backup no Microsoft SharePoint Online
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Apenas determinados modelos e determinados aplicativos são suportados para backups do Microsoft SharePoint Online.
+
+
+
+== Modelos suportados
+
+Apenas os modelos a seguir são suportados para backups do Microsoft SharePoint Online.
+
+* STS nº 0 (local da equipe)
+* BLOG nº 0 (Site do Blog)
+* DEV nº 0 (site de desenvolvedor)
+* PROJECTSITE nº 0 (Site do Projeto)
+* COMUNIDADE nº 0 (Site da Comunidade)
+* BDR n.o 0 (Centro de documentos)
+* COMMUNITYPORTAL nº 0 (Portal comunitário)
+* ENTERWIKI 0 (WIKI Empresarial)
+* EHS n.o 1 (local raiz)
+* EHS n.o 0 (local raiz)
+* SITEPAGEPUBLISHING n.º 0 (Site de Comunicação)
+* SPSPERS nº 10 (Sites pessoais)
+* STS n.o 1 (local em branco)
+* STS n.o 2 (espaço de trabalho de documentos)
+* STS nº 3 (local moderno da equipe)
+* APP n.o 0 (modelo de aplicação)
+* BLANKINTERNET nº 0 (Site de publicação)
+* TEAMCHANNEL N.O 0
+* TEAMCHANNEL nº 1 (Canal de equipe Privada)
+
+
+
+
+== Aplicações suportadas
+
+Os seguintes aplicativos são suportados para backups do Microsoft SharePoint Online.
+
+* Lista personalizada
+* Crachá (Site da Comunidade)
+* Biblioteca de documentos
+* Biblioteca de estilo
+* Pesquisar
+* Link
+* Anúncio
+* Contacto
+* Calendário
+* Conselho de discussão
+* Fotografias
+* Biblioteca de imagens
+* Peças Web de conteúdo
+* Listar Galeria de modelos
+* Galeria da Página Principal
+* Páginas do site
+* Lista personalizada no modo de exibição Dataset
+* Galeria de soluções
+* Galeria de temas
+* Looks compostos
+* Links promovidos
+* Tarefas
+* Posts (Site do Blog)
+* Comentários (Site do Blog)
+* Discussões na comunidade (Site da Comunidade)
+* Categorias (Site do Blog)
+* Categorias da Comunidade (Site da Comunidade)
+* Relatório
+* Páginas Wiki
+* Imagens da coleção do site
+* Membros da Comunidade (Site da Comunidade)
+* Rastreio de problemas
+* Biblioteca de Registros
+* Compartilhar links
+

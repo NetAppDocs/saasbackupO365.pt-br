@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: task_performing_immediate_backup_of_policy.html 
+keywords: netapp, saas backup, microsoft 365, getting started, perform, performing, immediate, backup, backup policy 
+summary: Os primeiros passos com o SaaS Backup para Microsoft 365 incluem decidir que tipo de storage você deseja usar para fazer backup de seus dados, coletar informações pertinentes, criar uma conta de serviço do Microsoft 365 e atribuir permissões de usuário. 
+---
+= Execute um backup imediato de uma política de backup específica
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Quando você configura o SaaS Backup para Microsoft 365, por padrão, todos os seus dados ficam desprotegidos. Depois de migrar seus dados para um nível protegido, você poderá fazer um backup imediato do nível para o qual migrou seus dados. Isso impede que seus dados estejam em risco até que o primeiro backup agendado ocorra. Se você puder esperar pelo primeiro backup agendado, não será necessário realizar um backup imediato.
+
+Você pode realizar um backup imediato a qualquer momento que considerar necessário para a proteção de dados. Se você estiver executando uma versão de avaliação do SaaS Backup para Microsoft 365, só poderá executar três backups imediatos por dia, por serviço.
+
+.Passos
+. No Dashboard, selecione o serviço para o qual você deseja executar um backup imediato.
+. Em *políticas de backup*, clique no nível que você deseja fazer backup.
+. Clique em fazer backup agora.
++
+image:backup_now.gif["Captura de tela do botão SaaS Backup \"Backup Now\""]
+
++
+É apresentada uma mensagem a indicar que os serviços sob o nível selecionado serão colocados na fila de trabalhos para cópia de segurança imediata.
+
+. Clique em *Confirm*. É apresentada uma mensagem a indicar que o trabalho de cópia de segurança foi criado.
+. Clique em *Ver o progresso do trabalho* para monitorizar o progresso da cópia de segurança.
+

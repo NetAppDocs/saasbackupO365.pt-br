@@ -1,0 +1,56 @@
+---
+sidebar: sidebar 
+permalink: task_configuring_impersonation.html 
+keywords: netapp, saas backup, microsoft 365, getting started, configuring, impersonation, assigning, permissions, impersonate, user, accounts, 
+summary: Se você pretende usar o SaaS Backup com o Microsoft Exchange Online, você deve configurar a representação. 
+---
+= Configurar a representação para o Microsoft Exchange Online
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Se você pretende usar o SaaS Backup com o Microsoft Exchange Online, você deve configurar a representação. A representação permite que sua conta de serviço do Microsoft 365 represente contas de usuário e acesse permissões associadas.
+
+
+
+== Configurar automaticamente a representação
+
+Para configurar automaticamente a representação, execute https://msdn.microsoft.com/en-us/library/office/dn722376(v=exchg.150).aspx["Comandos do MSDN PowerShell"]o .
+
+
+
+== Configurar manualmente a representação
+
+Você pode configurar manualmente a representação com sua conta de administrador do Microsoft 365, bem como com contas de serviço do Microsoft 365 adicionadas no SaaS Backup. Para obter mais informações sobre contas de serviço do Microsoft 365, visite link:task_creating_msservice_account_with_global_permissions.html["Criando uma conta de serviço do Microsoft 365 com permissões globais."]
+
+Para configurar manualmente a representação, faça o seguinte:
+
+.Passos
+. Inicie sessão na sua conta de serviço Microsoft 365.
+. Selecione a guia *Exchange*.
+. À esquerda, em Painel, selecione *permissões*.
+. Clique em *funções de administrador*.
+. Clique duas vezes no painel direito para selecionar *Gerenciamento de descoberta*.
+. Em *funções*, clique no símbolo *.
++
+image:365_discovery_management_impersonation_setup_roles.jpg["Captura de tela da janela de escopo de gravação ao configurar a representação para o Microsoft Exchange Online"]
+
+. Selecione *ApplicationImpersonation* no menu suspenso.
+. Clique em *Add*.
+. Clique em *OK*.
+. Verifique se *ApplicationImpersonation* foi adicionado em *Roles*.
+. Em Membros, clique no símbolo *.
++
+image:365_discovery_management_impersonation_setup_members.jpg["Captura de tela da janela de membros ao configurar a representação para o Microsoft Exchange Online"] É apresentada uma nova janela
+
+. Escolha o nome de usuário.
+. Clique em *Add*.
+. Clique em *OK*.
+. Verifique se o nome de usuário aparece na seção *Membros*.
+. Clique em *Salvar*.
+

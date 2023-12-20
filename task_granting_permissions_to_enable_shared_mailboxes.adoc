@@ -1,0 +1,42 @@
+---
+sidebar: sidebar 
+permalink: task_granting_permissions_to_enable_shared_mailboxes.html 
+keywords: netapp, saas backup, microsoft 365, grant, granting, permissions, enabling, shared, mailboxes, azure, grant, shared 
+summary: No NetApp SaaS Backup para Microsoft 365, você pode conceder permissões para habilitar caixas de correio compartilhadas. 
+---
+= Conceda permissões para habilitar caixas de correio compartilhadas
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Você pode conceder permissões para habilitar caixas de correio compartilhadas no NetApp SaaS Backup para Microsoft 365.
+
+.Passos
+. Clique image:services.gif["Captura de tela do botão de serviços"] no painel de navegação esquerdo.
+. Clique no link Microsoft 365.
++
+image:mso365_settings.gif["Captura de tela do botão Microsoft 365"]
+
+. Clique em *conceder consentimento*.
++
+image:grant_consent.gif["Captura de tela do ícone de permissão de concessão"]
+
++
+Você é redirecionado para a página de autorização do Azure para autenticação.
+
+. Selecione sua conta de locatário.
+. *Aceite* as permissões. Suas caixas de correio compartilhadas serão descobertas durante a próxima *sincronização automática* agendada ou você pode executar um *Sincronizar agora*. Se você *Sincronizar agora*, levará alguns minutos para que suas caixas de correio compartilhadas sejam descobertas.
+. Para acessar caixas de correio compartilhadas após um *Auto Sync* ou um *Sync Now* faça o seguinte:
++
+.. Clique image:services.gif["Captura de tela do botão de serviços"] no painel de navegação esquerdo.
+.. Clique em *Microsoft Exchange Online*.
+.. Clique no número de caixas de correio desprotegidas.
+.. Clique na guia *compartilhada*.
+
+
+

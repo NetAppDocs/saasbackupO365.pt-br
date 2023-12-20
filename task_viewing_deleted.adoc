@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: task_viewing_deleted.html 
+keywords: netapp, saas backup, microsoft 365, view, viewing, jobs, deleted, items, SharePoint, Exchange, OneDrive, Groups, Teams 
+summary: Você pode exibir itens excluídos de todos os serviços se ativar itens excluídos das Configurações de serviço. 
+---
+= Exibir itens excluídos
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Você pode exibir itens excluídos em todos os serviços a qualquer momento, ativando *Mostrar itens excluídos* em Configurações de serviço. Isso ajuda você a economizar tempo; em vez de navegar por diferentes backups para itens excluídos, ative o switch para encontrar os itens excluídos imediatamente.
+
+Por predefinição, o interrutor é desligado.
+
+.Passos
+. Clique em *services* no painel de navegação esquerdo.
+. Clique no ícone Configurações image:settings_icon.gif["A imagem mostra o ícone de definições"].
++
+image:show_deleted_items_switch_off.gif["A imagem mostra a desativação dos itens eliminados"]
+
+. Ative a opção *Mostrar itens excluídos*.
++
+image:show_deleted_items_switch_on.gif["A imagem mostra a ativação dos itens eliminados e as definições de cópia de segurança atualizadas"]
+
+. Clique em *trabalhos* no painel de navegação esquerdo.
+. Abra o backup mais recente para ver os itens excluídos.
+

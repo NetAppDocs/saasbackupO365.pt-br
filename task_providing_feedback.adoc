@@ -1,0 +1,26 @@
+---
+sidebar: sidebar 
+permalink: task_providing_feedback.html 
+keywords: netapp, saas backup, microsoft 365, provide, providing, feedback, backup policies, changing backup policies, canceling job, immediate backup, SharePoint Online templates 
+summary: Fornecer feedback para nos ajudar a atendê-lo melhor. 
+---
+= Fornecer feedback
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+O seu feedback sobre o produto NetApp SaaS Backup para Microsoft 365 nos ajuda a atendê-lo melhor. Você pode fornecer feedback de dentro do SaaS Backup para Microsoft 365.
+
+.Passos
+. Clique image:support.png[""] na navegação do painel esquerdo.
+. Selecione *Feedback*.
+. Preencha a breve pesquisa de feedback.
+. Clique em *Enviar*.
+
+
+Se você quiser ser notificado automaticamente quando a documentação em nível de produção for liberada ou alterações importantes forem feitas em documentos existentes no nível de produção, siga a conta do Twitter.

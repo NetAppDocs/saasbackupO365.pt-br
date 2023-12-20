@@ -1,0 +1,52 @@
+---
+sidebar: sidebar 
+permalink: task_viewing_history_and_activity.html 
+keywords: netapp, saas backup, microsoft 365, view, viewing, jobs, history, activity, log 
+summary: Você pode exibir ou baixar um log das atividades do SaaS Backup e do histórico de tarefas. 
+---
+= Ver histórico de trabalhos e registo de atividades
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+O SaaS Backup para Microsoft 365 armazena um log do histórico de tarefas e um log de todas as atividades realizadas no SaaS Backup.
+
+
+
+== Ver histórico de trabalhos
+
+Você pode visualizar ou baixar relatórios de todo o seu histórico de trabalhos no NetApp SaaS Backup para Office 365. Você pode filtrar sua pesquisa por tipo de tarefa, serviço, hora de início, hora de término e status de conclusão.
+
+.Passos
+. Clique em *Reporting* no painel de navegação esquerdo. Uma lista de todas as tarefas de Backup do SaaS é exibida na guia *Histórico do trabalho*.
+. Para filtrar os resultados, clique em *Filtrar*.
+. Clique no menu suspenso *Select* e selecione um filtro. Você pode filtrar por política, serviço, tipo ou status. Depois de selecionar um filtro, é apresentado um campo de pesquisa.
+. Introduza os seus critérios de pesquisa.
+. Se quiser adicionar mais filtros, clique em *Adicionar filtro*.
+. Clique em *Apply Filter* (aplicar filtro). Os resultados do filtro são exibidos.
+. Clique em qualquer trabalho para expandir a visualização para obter detalhes adicionais do trabalho.
+
+
+
+
+== Ver o registo de atividades
+
+Um log é armazenado de todas as atividades que ocorrem dentro do SaaS Backup para Microsoft 365. O log contém a data de cada ação executada juntamente com o nome do usuário que executou a ação. Você pode filtrar o log de atividades por serviço e evento. Por exemplo, se você precisar ver todas as operações de restauração que ocorreram no Microsoft Exchange Online, poderá filtrar o log de atividades para exibir esses resultados específicos.
+
+.Passos
+. Clique em *Reporting* no painel de navegação esquerdo.
+. Clique no separador *Registo de atividades*. É apresentada uma lista de todas as atividades do SaaS Backup para Microsoft 365.
+. Para filtrar os resultados, clique em *Filtrar*.
+. Clique no menu suspenso *Select* e selecione um filtro. Você pode filtrar por serviço ou evento. Depois de selecionar um filtro, é apresentado um campo de pesquisa.
+. Introduza os seus critérios de pesquisa.
+. Se quiser adicionar mais filtros, clique em *Adicionar filtro*.
+. Clique em *Apply Filter* (aplicar filtro).
++
+Os resultados do filtro são exibidos.
+
+

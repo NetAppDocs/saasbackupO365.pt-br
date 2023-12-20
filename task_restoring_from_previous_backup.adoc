@@ -1,0 +1,81 @@
+---
+sidebar: sidebar 
+permalink: task_restoring_from_previous_backup.html 
+keywords: netapp, saas restore, restoring, microsoft 365, high-level restores, granular restores, Microsoft Exchange Online, Microsoft OneDrive for Business, Microsoft SharePoint Online, archive, archive, shared, mailboxes 
+summary: Por padrão, somente o backup mais recente está disponível para restauração. 
+---
+= Restaurar a partir de uma cópia de segurança anterior
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Por padrão, somente o backup mais recente está disponível para restauração.
+
+.Passos
+. No Painel, clique no número acima *PROTEGIDO* na caixa do serviço para o qual você deseja executar a restauração.
++
+** Para caixas de correio compartilhadas, clique na guia *COMPARTILHADO*.
+** Para caixas de correio de arquivo, clique na guia *ARCHIVE*. Observação: As caixas de correio de arquivo são restauradas para a caixa de correio normal do usuário.
+** Para caixas de correio regulares, permaneça na guia *USER*.
+
+
+. Clique no item que deseja restaurar.
+. Clique em *Exibir histórico de backup*.
++
+É apresentado um calendário. As datas para as quais os backups estão disponíveis são indicadas por um círculo verde.
+
+. Se você quiser exibir os itens de backup em um número selecionado de dias, clique em *Mostrar backups selecionados* e selecione um dos números predefinidos de dias no menu suspenso.
+. Caso contrário, clique na data do backup que você deseja restaurar e selecione o backup específico.
+. Selecione os itens que deseja restaurar.
+. Clique em image:restore.gif["imagem do botão de restauração"]
+. Selecione uma opção de restauração:
++
+.. Se você estiver restaurando caixas de correio para *Microsoft Exchange Online* ou uma caixa de correio para um Microsoft 365 Group, selecione uma das seguintes opções:
++
+*** *Restaurar para a mesma caixa de correio*
++
+Se você estiver restaurando para a mesma caixa de correio, por padrão, uma pasta de restauração com o carimbo de data e hora atual será criada no local do conteúdo original que contém a cópia de backup. Se você selecionar *Substituir o conteúdo existente*, seus dados atuais serão completamente substituídos pelo backup.
+
+*** *Restaurar para outra caixa de correio*
++
+Se restaurar para outra caixa de correio, tem de introduzir a caixa de correio de destino no campo de pesquisa. Você pode digitar uma parte do endereço de e-mail de destino no campo de pesquisa para iniciar uma pesquisa automática para caixas de correio de destino correspondentes.
+
+
+
+.. Se você estiver restaurando MySites para *Microsoft OneDrive for Business*, selecione uma das seguintes opções:
++
+*** *Restaurar para o mesmo MySite*
++
+Se você estiver restaurando arquivos individuais para o mesmo MySite, por padrão, uma pasta de restauração com o carimbo de data e hora atual será criada no local do conteúdo original que contém a cópia de backup. Se você selecionar *Substituir o conteúdo existente*, seus dados atuais serão completamente substituídos pelo backup. Se você estiver restaurando uma pasta inteira, a opção *Substituir o conteúdo existente* não estará disponível.
+
+*** *Restaurar para um MySite diferente*
++
+Se você restaurar para um MySite diferente, você deve inserir o MySite de destino no campo de pesquisa. Você pode digitar uma parte do MySite de destino no campo de pesquisa para iniciar uma pesquisa automática para MySites de destino correspondentes.
+
+
+
+.. Se estiver a restaurar sites para *Microsoft SharePoint Online*, pode restaurar para o mesmo site ou para um site diferente. Se estiver a restaurar um site de grupo do Microsoft 365, só poderá restaurar para o mesmo site.
++
+*** *Restaurar para o mesmo site*
++
+Se você restaurar para o mesmo site, por padrão, uma pasta de restauração com o carimbo de data e hora atual será criada no local do arquivo original que contém a cópia de backup. Se você selecionar a opção *Substituir com mesclagem*, nenhuma pasta de restauração será criada. Se a versão do arquivo de backup e o arquivo atual corresponderem, o backup será restaurado para o local original. Qualquer novo conteúdo no destino é ignorado e não afetado. Por exemplo, se o backup contiver File1 version5 e o destino contiver File1 versão 6, uma restauração com a opção *Substituir com Mesclar* selecionada falhará. Se você selecionar a opção *Substituir o conteúdo existente*, a versão atual dos dados será completamente substituída pela cópia de backup.
+
+*** *Restaurar para um site diferente*
++
+Se restaurar para um local diferente, tem de introduzir o local de destino no campo de pesquisa. Você pode digitar uma parte do site de destino no campo de pesquisa para iniciar uma pesquisa automática por sites correspondentes.
+
+
+
+
+
+. Clique em *Confirm*.
++
+É apresentada uma mensagem a indicar que o trabalho de restauro foi criado.
+
+. Clique em *Exibir o andamento do trabalho* para monitorar o progresso da restauração.
+

@@ -1,0 +1,23 @@
+---
+sidebar: sidebar 
+permalink: task_canceling_job.html 
+keywords: netapp, saas backup, microsoft 365, cancel, canceling, jobs, backup, restore, immediate 
+summary: Se você tiver iniciado um backup imediato ou uma restauração imediata, mas precisar cancelá-lo antes que ele seja concluído, você pode fazê-lo. 
+---
+= Cancelar um trabalho
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Se você tiver iniciado um backup imediato ou uma restauração imediata, mas precisar cancelá-lo antes que ele seja concluído, você pode fazê-lo.
+
+.Passos
+. Clique image:jobs_button.gif["Captura de tela do botão trabalhos"] no painel de navegação esquerdo.
+. Em *trabalhos em execução recentes*, clique no trabalho que deseja cancelar.
+. Clique em *Cancelar*. O progresso do trabalho cancelado é exibido em *trabalhos concluídos recentes*.
+

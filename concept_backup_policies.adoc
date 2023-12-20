@@ -1,0 +1,57 @@
+---
+sidebar: sidebar 
+permalink: concept_backup_policies.html 
+keywords: netapp, saas backup, microsoft 365, backup, policies, byos, provides, storage, tiers, tier 1, tier 2, tier 3, frequency, default, data, retention, 
+summary: O SaaS Backup para Microsoft 365 tem três níveis predefinidos de políticas de backup. Essas camadas de política variam na frequência do backup e no período de retenção de dados, dependendo se você estiver usando o storage fornecido pelo SaaS Backup ou o BYOS. 
+---
+= Políticas de backup
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+O SaaS Backup para Microsoft 365 tem três níveis predefinidos de políticas de backup. Essas camadas de política variam na frequência do backup e no período de retenção de dados, dependendo se você estiver usando o storage fornecido pelo SaaS Backup ou o BYOS.
+
+É possível mover dados entre as três políticas, mas não é possível criar novas políticas ou alterar os parâmetros das camadas predefinidas.
+
+
+
+== Políticas de backup para o storage fornecido pelo SaaS Backup
+
+|===
+| Política de backup | Frequência de backup | Período de retenção de dados padrão 
+
+
+| Categoria 1 | Uma vez a cada 12 horas | 3 anos 
+
+
+| Categoria 2 | Uma vez a cada 18 horas | 3 anos 
+
+
+| Categoria 3 | Uma vez a cada 24 horas | 3 anos 
+|===
+
+NOTE: Como administrador, você pode alterar o período de retenção de dados para o storage fornecido pelo SaaS Backup para um período ilimitado. O SaaS Backup mantém os dados de backup durante o período de retenção, se a assinatura estiver ativa.
+
+
+
+== Políticas de backup para BYOS
+
+O BYOS é apenas para clientes existentes.
+
+|===
+| Política de backup | Frequência de backup | Período de retenção de dados padrão 
+
+
+| Categoria 1 | Uma vez a cada 12 horas | Ilimitado 
+
+
+| Categoria 2 | Uma vez a cada 18 horas | Ilimitado 
+
+
+| Categoria 3 | Uma vez a cada 24 horas | Ilimitado 
+|===

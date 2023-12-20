@@ -1,0 +1,185 @@
+---
+sidebar: sidebar 
+permalink: task_performing_granular_level_restore_exchange.html 
+keywords: netapp, saas backup, perform, performing, restore, microsoft 365, granular restores, Microsoft Exchange Online, archive, archive, shared, mailboxes, self service portal 
+summary: Você pode usar o SaaS Backup para Microsoft 365 para fazer restaurações granulares para o Microsoft Exchange Online 365. 
+---
+= Execute uma restauração de nível granular para o Microsoft Exchange Online
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+No Microsoft Exchange Online, você pode restaurar itens de nível granular para um único usuário, como e-mails individuais, tarefas, Contatos e eventos de calendário. Você também pode restaurar itens de nível granular para uma caixa de correio de grupo do Microsoft 365.
+
+Por padrão, somente o backup mais recente está disponível para restauração. Outras opções disponíveis incluem:
+
+image:backup_for_restore_availability.png["Backups disponíveis para restauração"]
+
+A tabela indica as opções de restauração compatíveis com itens de nível granular para o Exchange Online.
+
+[cols="20a,15a,15a,15a,40a"]
+|===
+| Tipo de item | Restaurar para a mesma caixa de correio | Restaurar para outra caixa de correio | Exportar para PST/Exportar para HTML | Onde encontrá-lo no SaaS Backup 
+
+
+ a| 
+Correio/tarefa/Contactos/etc.
+ a| 
+Sim
+ a| 
+Sim
+ a| 
+Sim
+ a| 
+Exchange Online > caixas de correio - utilizadores
+
+
+
+ a| 
+Pastas de caixa de correio simples/múltiplas (caixa de entrada, arquivo, etc.)
+
+*Nota*: Exclui o histórico de conversas.
+ a| 
+Sim
+ a| 
+Sim
+ a| 
+Sim
+ a| 
+Exchange Online > caixas de correio - utilizadores > <User Name>
+
+
+
+ a| 
+Nível da pasta em caixa de entrada
+ a| 
+Sim
+ a| 
+Sim
+ a| 
+Sim
+ a| 
+Exchange Online > caixas de correio - utilizadores > <User Name>
+
+
+
+ a| 
+Nível de subpasta em caixa de entrada
+ a| 
+Sim
+ a| 
+Sim
+ a| 
+Sim
+ a| 
+Exchange Online > caixas de correio - utilizadores > <User Name>
+
+
+
+ a| 
+Histórico de conversas na pasta Mail
+ a| 
+Não
+ a| 
+Não
+ a| 
+Sim
+ a| 
+Exchange Online > caixas de correio - utilizadores > <User Name>
+
+
+
+ a| 
+Restaurações em nível de item único/múltiplo
+ a| 
+Sim
+ a| 
+Sim
+ a| 
+Não
+ a| 
+Exchange Online > caixas de correio - utilizadores > <User Name>
+
+
+
+ a| 
+Itens de restauração únicos/múltiplos para "Substituir o conteúdo existente"
+ a| 
+Sim
+ a| 
+Não
+ a| 
+Não
+ a| 
+Exchange Online > caixas de correio - utilizadores > <User Name>
+
+|===
+.Passos
+. No Painel, clique no número acima *PROTEGIDO* na caixa Exchange.
++
+image:number_protected_exchange.gif["Captura de tela do número de instâncias protegidas no Exchange"]
+
+. Selecione a opção de restauração.
++
+.. Para caixas de correio compartilhadas, clique na guia *COMPARTILHADO*.
+.. Para caixas de correio de arquivo, clique na guia *ARCHIVE*.
+.. Para caixas de correio regulares, permaneça na guia *USER*.
+
+
+. Clique na caixa de correio para a qual você precisa executar a restauração de nível granular.
+. Restaure uma categoria inteira do Microsoft Office Exchange ou restaure um item específico dentro de uma categoria. Para uma caixa de correio do Microsoft 365 Groups, só tem a opção de restaurar a partir da categoria de correio ou da categoria de calendário.
+. Selecione a categoria (correio, tarefas, Contatos ou outro) que você precisa restaurar.
++
+
+NOTE: Se você quiser restaurar um único item dentro da categoria, clique na categoria e selecione os itens que deseja restaurar.
+
+. Clique em *Restaurar*.
+. Selecione uma opção de restauração.
++
+** *Restaurar para a mesma caixa de correio*
++
+Se você restaurar para a mesma caixa de correio, por padrão, uma pasta de restauração com o carimbo de data e hora atual será criada no local do conteúdo original que contém a cópia de backup. Se você selecionar *Substituir o conteúdo existente*, seus dados atuais serão completamente substituídos pelo backup.
+
++
+Para grupos do Microsoft 365, você só tem a opção de restaurar para a mesma caixa de correio. O conteúdo existente é substituído por padrão. Para o Microsoft Exchange Online, pode restaurar para a mesma caixa de correio e substituir o conteúdo existente ou pode restaurar para outra caixa de correio.
+
+** *Restaurar para outra caixa de correio*
++
+Se restaurar para outra caixa de correio, tem de introduzir a caixa de correio de destino no campo de pesquisa. Você pode digitar uma parte do endereço de e-mail de destino no campo de pesquisa para iniciar uma pesquisa automática para caixas de correio de destino correspondentes.
+
+** *Exportar para PST*
++
+Você pode selecionar para incluir todas as subpastas de categoria.
+
++
+Se você exportar para PST, você receberá um e-mail de notificação com a localização do arquivo PST quando a exportação for concluída.
+
++
+
+NOTE: Esta opção não está disponível para grupos do Microsoft 365.
+
++
+
+NOTE: Se você selecionar a opção de restauração *Exportar para PST*, o link fornecido é válido por sete dias e é pré-autenticado.
+
+** *Exportar para dados* (disponível apenas para grupos Microsoft 365):
++
+Se você exportar, dois arquivos zip são criados, um arquivo zip para a caixa de correio do Microsoft 365 Groups e outro arquivo zip para sites do Microsoft 365 Groups SharePoint. Você receberá um e-mail de notificação contendo a localização do arquivo PST e um URL autenticado para o local do arquivo .zip.
+
++
+
+NOTE: Se você selecionar a opção de restauração *Exportar para dados*, o link fornecido será válido por sete dias e será pré-autenticado.
+
+
+
+. Clique em *Confirm*.
++
+É apresentada uma mensagem a indicar que o trabalho de restauro foi criado.
+
+. Clique em *Exibir o andamento do trabalho* para monitorar o progresso da restauração.
+

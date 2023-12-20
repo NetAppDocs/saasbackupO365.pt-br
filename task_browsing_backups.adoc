@@ -1,0 +1,42 @@
+---
+sidebar: sidebar 
+permalink: task_browsing_backups.html 
+keywords: netapp, saas backup, Microsoft, microsoft 365, protected, protected instances, backup, backed up items, backups, browse, browsing, OneDrive, SharePoint, Exchange, Microsoft 365 Groups, date range, days, items, user, users, group, groups 
+summary: Você pode navegar em seus backups em todos os serviços do Microsoft 365. 
+---
+= PESQUISE backups
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Você pode pesquisar instâncias protegidas em backups recentes ou em todos os backups do Microsoft 365 Exchange, SharePoint, OneDrive for Business e Groups.
+
+
+NOTE: A configuração de navegação padrão é *Mostrando os últimos 5 dias Backup*. Se você selecionar 5 dias, somente itens com backup nos últimos 5 dias serão exibidos. Você pode alterar o intervalo de tempo conforme necessário.
+
+Para ter certeza de encontrar o que você está procurando, verifique a data à esquerda do menu suspenso intervalo de tempo.
+
+image:8_october_last_5_days_backup_highlight_date_&_count.png["a imagem destaca a data e a contagem para uma navegação de uma caixa de correio do usuário"]
+
+.Passos
+. No *Dashboard*, selecione o serviço que você deseja procurar por backups e selecione instâncias protegidas.
++
+image:number_protected_unprotected_highlight_protected.gif["Instâncias protegidas do Exchange destacadas"]
+
+. Selecione a conta que deseja navegar.
+. Selecione o intervalo de tempo para os itens de cópia de segurança que pretende navegar.
++
+image:date_range_browse_feature.gif["A imagem mostra as opções de intervalo de tempo para a navegação de backups"]
+
++
+
+NOTE: *Exibir histórico de backup* mostra uma exibição de calendário de seus backups. Se você selecionar *Exibir histórico de backup* e selecionar uma data anterior ao dia atual, isso mudará o intervalo de tempo para os backups exibidos. Por exemplo, se hoje é 8 de outubro, você seleciona 5 de outubro na exibição do calendário e, em seguida, você seleciona para navegar nos últimos 5 dias a partir de 5 de outubro, os itens que você pode navegar serão de 1-5 de outubro.
+
+. Clique no tipo de itens que deseja exibir: Email, Calendário, tarefas, Contatos, arquivos, conteúdo ou outros.
+. Procure os itens de cópia de segurança.
+

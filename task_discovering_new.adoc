@@ -1,0 +1,31 @@
+---
+sidebar: sidebar 
+permalink: task_discovering_new.html 
+keywords: netapp, saas backup, microsoft 365, discover, discovery, discovering, new, mailboxes, sites, groups, teams, shared, archive 
+summary: No NetApp SaaS Backup para Microsoft 365, você pode gerenciar suas contas de serviço, descobrir contas recém-adicionadas e definir notificações de conta. 
+---
+= Descubra novas caixas de correio, sites e grupos
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Uma sincronização deve ocorrer entre o SaaS Backup e sua conta do Microsoft 365 para que novas caixas de correio (incluindo caixas de correio compartilhadas e de arquivamento), sites, grupos e equipes sejam descobertos pelo SaaS Backup. Por padrão, a sincronização ocorre automaticamente a cada 24 horas. No entanto, se você fizer alterações e quiser que a descoberta ocorra antes da próxima sincronização programada *Auto*, poderá iniciar uma sincronização imediata.
+
+.Passos
+. Clique image:services.gif["Captura de tela do botão de serviços"] no painel de navegação esquerdo.
+. Clique no ícone de configurações do Microsoft 365. image:mso365_settings.gif["Captura de tela do botão Microsoft 365"]
+. Clique em *Sincronizar agora* ao lado do serviço que deseja sincronizar. image:sync_now.png[""] Novos usuários, caixas de correio compartilhadas e caixas de correio de arquivamento são descobertos e adicionados em um estado desprotegido. Se você deseja que usuários recém-descobertos, caixas de correio compartilhadas ou caixas de correio de arquivamento sejam copiados, você deve alterar a política de backup dos usuários de desprotegidos para um dos grupos de camadas predefinidos.
+. Clique em *Confirm*.
+. Clique em *Exibir o andamento do trabalho* para monitorar o progresso. Quando o trabalho estiver concluído, pode clicar no trabalho em *trabalhos concluídos recentes* para ver o número de utilizadores que foram adicionados ou removidos durante a sincronização. As alterações às contas de utilizador são indicadas da seguinte forma:
++
+** *Redescoberto* usuários indicam o número de contas de usuário inalteradas.
+** *Disabled* Users indica o número de contas de usuário excluídas.
+** *Usuários recém-adicionados* indicam o número de novas contas de usuário.
+
+
+

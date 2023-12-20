@@ -1,0 +1,120 @@
+---
+sidebar: sidebar 
+permalink: concept_backup_settings.html 
+keywords: netapp, saas backup, microsoft 365, backup, setting, updating, autosync, enable, restore, recoverable, items, backup, list, views, version, history, workflows 
+summary: Você pode atualizar suas configurações de backup para controlar várias opções de backup. As configurações de backup disponíveis variam de acordo com o serviço. 
+---
+= Definições de cópia de segurança
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Você pode atualizar suas configurações de backup para controlar várias opções de backup. As configurações de backup disponíveis variam de acordo com o serviço.
+
+
+
+== Configurações de backup por serviço
+
+[cols="12,64,24,24"]
+|===
+| Definição de cópia de segurança | Descrição | Ativado | Disponível em... 
+
+
+| Sincronização automática  a| 
+Permite a sincronização automática agendada de usuários recém-adicionados ou excluídos, OneDrives ou coleções de sites uma vez a cada 24 horas.
+| Por padrão  a| 
+* Microsoft Exchange Online
+* Microsoft SharePoint Online
+* Microsoft OneDrive for Business
+* Grupos do Microsoft 365
+
+
+
+
+| Ativar a cópia de segurança do OneNote  a| 
+Permite o backup de blocos de anotações do OneNote.
+| Manualmente  a| 
+* Microsoft SharePoint Online
+* Microsoft OneDrive for Business
+
+
+
+
+| Ative a restauração de itens recuperáveis  a| 
+Permite que o usuário restaure itens recuperáveis do Microsoft Exchange.
+| Manualmente  a| 
+* Microsoft Exchange Online
+
+
+
+
+| Ativar cópia de Segurança de itens recuperáveis  a| 
+Permite o backup de itens recuperáveis do Microsoft Exchange. Apenas a política de backup de camada 1 permite o backup de itens recuperáveis.
+| Manualmente  a| 
+* Microsoft Exchange Online
+
+
+
+
+| Inclua fluxos de trabalho  a| 
+Inclui fluxos de trabalho no backup.
+| Manualmente  a| 
+* Microsoft SharePoint Online
+* Grupos do Microsoft 365
+
+
+
+
+| Incluir exibições de lista  a| 
+Inclui vistas de lista em cópia de segurança.
+| Manualmente  a| 
+* Microsoft SharePoint Online
+* Grupos do Microsoft 365
+
+
+
+
+| Incluir Histórico de versões  a| 
+Permite a manutenção de várias versões de arquivos no backup.
+
+
+NOTE: Esta definição aplica-se apenas a ficheiros individuais. Ele não se aplica a pastas, camadas ou serviços inteiros.
+| Por padrão  a| 
+* Microsoft SharePoint Online
+* Microsoft OneDrive for Business
+* Grupos do Microsoft 365
+
+
+
+
+| Número de versões  a| 
+Define o número de versões de arquivos de backup a serem mantidas. Por padrão, o backup da versão mais recente é feito automaticamente, mesmo que essa configuração não esteja ativada.
+| Defina como 20 por padrão  a| 
+* Microsoft SharePoint Online
+* Microsoft OneDrive for Business
+* Grupos do Microsoft 365
+
+
+|===
+
+
+== Atualizar definições de cópia de segurança
+
+.Passos
+. Clique em *Serviços* no painel de navegação esquerdo.
++
+image:services.gif["Captura de tela do botão de serviços"]
+
+. Clique em Microsoft 365.
++
+image:mso365_settings.gif["Captura de tela do botão Microsoft 365"]
+
+. Em *Gerenciar Serviços*, clique no ícone de configurações de backup image:configure_icon.gif["Captura de tela do ícone de configuração"]ao lado do serviço que você precisa atualizar. É apresentada uma lista das definições de cópia de segurança disponíveis para o serviço selecionado.
+. Selecione as definições de cópia de segurança pretendidas.
+. Clique em *Confirm*.
+

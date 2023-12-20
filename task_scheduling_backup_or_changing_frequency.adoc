@@ -1,0 +1,62 @@
+---
+sidebar: sidebar 
+permalink: task_scheduling_backup_or_changing_frequency.html 
+keywords: netapp, saas backup, microsoft 365, schedule, scheduling, backup policies, changing backup policies, canceling job, immediate backup, SharePoint Online templates, shared mailboxes, archive mailboxes, archive, archive, shared, mailboxes 
+summary: Você segue o mesmo processo para agendar um novo backup ou alterá-lo para a frequência de um backup atual. 
+---
+= Agendar uma cópia de segurança ou alterar a frequência da cópia de segurança
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Você pode fazer backup de seus dados desprotegidos atribuindo-os a uma política de backup. Quando os dados desprotegidos são atribuídos a uma política de backup, ele se move para um estado *PENDENTE* até que o próximo backup programado para a política atribuída ocorra, após o qual ele é movido para um estado *PROTEGIDO*. Se quiser alterar a frequência de backup dos dados protegidos, você pode atribuir os dados a um nível de política de backup diferente.
+
+.Passos
+. No Painel, clique no número acima *PROTEGIDO* ou *DESPROTEGIDO* na caixa do serviço que deseja alterar. Se pretender alterar a frequência de cópia de segurança dos dados protegidos, clique em *PROTECTED*. Se você quiser fazer backup de caixas de correio, sites ou MySites recentemente descobertos, selecione *DESPROTEGIDO*.
++
+image:number_protected_unprotected.gif[""]
+
+. Selecione as opções de cópia de segurança.
++
+.. Para o Exchange
++
+*** Se você estiver fazendo backup de caixas de correio compartilhadas (somente nível 3), clique na guia *COMPARTILHADO*.
+*** Se você estiver fazendo backup de caixas de correio de arquivo (somente Tier 3), clique na guia *ARCHIVE*.
+*** Se você estiver fazendo backup ou alterando caixas de correio regulares, permaneça na guia *USUÁRIO*.
+
+
+.. Para SharePoint
++
+*** Se você estiver fazendo backup ou alterando a política de backup para sites, permaneça na guia *SITES*.
+
+
+.. Para OneDrive
++
+*** Se você estiver fazendo backup ou alterando a política de backup para usuários, permaneça na guia *USUÁRIO*.
+
+
+.. Para grupos do Microsoft 365
++
+*** Se você estiver fazendo backup de grupos (somente nível 3), permaneça na guia *GRUPOS*.
+*** Se você estiver fazendo backup do Teams (somente nível 3), clique na guia *TEAMS*.
+
+
+
+
+. Selecione os itens que deseja fazer backup.
+. Clique no menu *Groups*.
++
+image:groups_menu.gif["Menu grupos"]
+
+. Selecione o novo nível de política para o backup.
++
+
+NOTE: Os grupos do Microsoft 365 e caixas de correio de arquivo só podem ser movidos para a diretiva de camada 3.
+
+. Clique em *aplicar*.
+

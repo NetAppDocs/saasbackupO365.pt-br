@@ -1,0 +1,47 @@
+---
+sidebar: sidebar 
+permalink: task_creating_user_defined_filter.html 
+keywords: netapp, saas backup, microsoft 365, create, creating, view, filtering, data, information, user defined filters, creating filters, search, viewing, job history, activity log, downloading log 
+summary: Você pode filtrar a exibição de suas caixas de correio, sites ou MySites para mostrar apenas resultados que se encaixam em critérios específicos. 
+---
+= Crie um filtro definido pelo usuário
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Você pode filtrar a exibição de suas caixas de correio, sites ou MySites para mostrar apenas resultados que se encaixam em critérios específicos. Por exemplo, você pode definir seus filtros para ver apenas caixas de correio em um determinado país e em um determinado departamento dentro desse país.
+
+.Passos
+. No Painel, clique no número acima *PROTEGIDO* ou *DESPROTEGIDO* na caixa do serviço para o qual você deseja criar um filtro. O número acima PROTEGIDO indica o número de caixas de correio, MySites ou grupos que estão atualmente protegidos por uma política de backup. O número acima DESPROTEGIDO indica o número de caixas de correio, MySites ou grupos que não estão protegidos por uma política de backup.
++
+image:number_protected_unprotected.gif[""]
+
+. Clique em *filtro*.
++
+image:filter.gif["Captura de tela do botão de menu suspenso do filtro"]
+
+. Clique no menu suspenso *Select* e selecione o filtro de sua escolha.
++
+Para o Microsoft SharePoint Online, você pode filtrar por ID de modelo. Pode introduzir a ID do modelo para a procurar ou seleciona-la no menu pendente.
+
++
+Para todos os outros serviços, você pode filtrar por grupo, país, escritório, departamento, título, domínio ou país. Se você tiver grupos de segurança, eles também serão listados como opções de filtragem.
+
++
+O segundo menu suspenso é preenchido com seleções com base no filtro selecionado. Por exemplo, se você selecionar Grupo como seu primeiro filtro, poderá selecionar uma das camadas de grupo de políticas de backup como seu filtro secundário.
+
++
+image:select_filter.gif["Captura de tela do primeiro conjunto de opções de filtro"]
+
++
+É apresentado um campo de pesquisa.
+
+. Introduza os seus critérios de pesquisa.
+. Se quiser adicionar mais filtros, clique em *Adicionar filtro* e faça a sua seleção.
+. Clique em *Apply Filter* (aplicar filtro). Os resultados do filtro são exibidos.
+

@@ -1,0 +1,104 @@
+---
+sidebar: sidebar 
+permalink: task_using_advanced_search.html 
+keywords: netapp, saas backup, microsoft 365, search, searching, advanced search, perform, performing, exchange 
+summary: Você pode habilitar a Pesquisa Avançada para pesquisar itens de backup no Microsoft 365 Exchange Online. 
+---
+= Use a Pesquisa Avançada para Microsoft Exchange Online
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Você pode usar *Pesquisa Avançada* para Microsoft Exchange Online para pesquisar itens de caixa de correio individuais ou compartilhados e restaurar esses itens para a caixa de correio original.
+
+Os administradores podem ativar a *Pesquisa Avançada* acessando link:https://mysupport.netapp.com/["Suporte"]e enviando uma solicitação. Você também pode enviar um e-mail para a equipe de suporte do SaaS Backup no NetApp.com.
+
+Depois de ativar a *Pesquisa Avançada*, você pode ativar o SSP (Self Service Portal) para locatários individuais. Se você não ativar *Pesquisa Avançada* antes do primeiro backup, nenhum resultado de pesquisa será exibido.
+
+image:advanced_search_settings_exchange.png["Uma captura de tela das configurações avançadas de pesquisa"]
+
+* <<Ative a Pesquisa Avançada>>
+* <<Realize uma pesquisa>>
+* <<Procurar trabalhos de pesquisa anteriores>>
+
+
+
+
+== Ative a Pesquisa Avançada
+
+Você pode ativar o recurso *Pesquisa Avançada* em Configurações de Pesquisa Avançada.
+
+
+NOTE: Os usuários licenciados e não licenciados podem usar o recurso de pesquisa avançada, se ativado.
+
+.Passos
+. No painel, clique em *Pesquisa avançada* no menu à esquerda.
+. Clique em *Configurações avançadas de pesquisa*.
++
+** Por padrão, a lista exibe todos os usuários licenciados. Alterne entre *Mostrar todos os usuários* e *Mostrar somente usuários Licenciados* para filtrar o tipo de usuário na lista.
+** Use a ferramenta pesquisar e digite pelo menos três carateres para encontrar um usuário exclusivo.
+
+
+. Para habilitar um usuário, na coluna *Pesquisa Avançada*, selecione *On*. Da próxima vez que você proteger esse usuário habilitado em um backup completo ou incremental, você pode fazer uma pesquisa de quaisquer novos itens de e-mail.
+. Clique em *Salvar configurações*.
+. Para fazer backup dos usuários habilitados, vá para link:task_scheduling_backup_or_changing_frequency.html["Agendar uma cópia de segurança ou alterar a frequência da cópia de segurança"] e permaneça na guia *Usuário* para selecionar os usuários para backup.
+
+
+
+
+== Realize uma pesquisa
+
+Você pode fazer uma pesquisa por itens de caixa de correio individuais ou compartilhados e restaurar esses itens para sua caixa de correio original em *Executar Pesquisa*.
+
+.Passos
+. No painel, clique em *Pesquisa avançada* no menu à esquerda.
+. Clique em *Executar Pesquisa*.
+. Insira as informações nos campos obrigatórios com um asterisco (*). Campos opcionais: Condições e condições de consulta. image:advanced_search_box.png["A imagem mostra executar opções de pesquisa com dois itens necessários"]
++
+** *Selecionar usuário*: Digite pelo menos três letras no nome do usuário para encontrar o usuário que deseja selecionar.
+** *Pesquisa*: Digite pelo menos três carateres em uma palavra-chave. Se você quiser pesquisar uma frase, coloque as palavras na frase dentro de citações (exemplo: "Olá mundo"). Se as palavras podem ser pesquisadas separadamente, aspas não são necessárias.
+** * Correspondência exata*: Selecione se você deseja pesquisar apenas as palavras-chave exatas.
+** *Condições*:
++
+*** *Itens*: Selecione itens para pesquisar todos os itens na caixa de correio.
+*** *Nome da pasta*: Selecione o nome da pasta para procurar itens em uma pasta específica na caixa de correio. Digite o nome da pasta na caixa de texto fornecida.
+
+
+** *Intervalo de datas*: No menu suspenso intervalo de datas, selecione *últimos 7 dias* ou *intervalo personalizado* para inserir a data de início e fim da pesquisa.
+** *Tamanho em bytes*: No menu suspenso tamanho em bytes, selecione *maior que (>)* ou *menor que (>)*. Em seguida, insira o tamanho em bytes.
+** *De*: Insira o endereço de e-mail do remetente.
+** *Para*: Insira o endereço de e-mail do destinatário.
+** *Assunto*: Selecione para pesquisar apenas por assunto.
+** *Tem anexo*: Selecione se o item de e-mail ou itens têm anexos.
+
+
+. Clique em *pesquisar*.
+. Para encontrar o seu trabalho de pesquisa, vá para encontrar trabalhos de pesquisa anteriores abaixo.
+
+
+
+
+== Procurar trabalhos de pesquisa anteriores
+
+Pode encontrar trabalhos de pesquisa anteriores em *trabalhos de pesquisa anteriores*.
+
+.Passos
+. No painel, clique em *Pesquisa avançada* no menu à esquerda.
+. Clique em *trabalhos de pesquisa anteriores*.
+. Encontre o trabalho de pesquisa que você executou anteriormente. Se os resultados de pesquisa zero forem exibidos, isso significa que nenhum item atendeu às condições que você inseriu para sua pesquisa.
+. Clique no número total de resultados de pesquisa para exibi-los.
+. Na exibição de exibição de resultados, você pode restaurar itens, selecionar quantas entradas são exibidas usando o menu suspenso *Mostrar entradas* ou pesquisar para restringir ainda mais os resultados.
++
+image:search_results_display_view.png["A imagem mostra a exibição de resultados da pesquisa com destaques para restauração, número de entradas e recursos de pesquisa"]
+
++
+
+NOTE: Os itens restaurados voltam para a caixa de correio original com a convenção de nomenclatura CC_search_mm.DD_time. Para encontrar o trabalho de restauro, aceda a *trabalhos* no menu à esquerda.
+
+. Para sair da exibição de resultados da pesquisa, clique em *voltar para pesquisar empregos*.
+

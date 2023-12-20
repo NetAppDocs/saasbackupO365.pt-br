@@ -1,0 +1,27 @@
+---
+sidebar: sidebar 
+permalink: task_viewing_purged.html 
+keywords: netapp, saas backup, microsoft 365, view, viewing, jobs, purged, deleted, accounts, mailboxes, sites, mysites 
+summary: Você pode exibir uma lista de caixas de correio ou contas de usuário que foram eliminadas. 
+---
+= Veja uma lista de dados purgados
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Você pode exibir uma lista de caixas de correio ou contas de usuário que foram eliminadas.
+
+.Passos
+. Clique image:configure_icon.gif["Captura de tela do ícone de configuração"] ao lado do ID de usuário do SaaS Backup no canto superior esquerdo.
+. Selecione *DEFINIÇÕES DA CONTA*.
+. CLIQUE EM *RETER E PURGAR*.
+. Em *Purge Data*, clique em *Show Purged List* (Mostrar lista purgada).
++
+Você pode exibir uma lista de itens programados para serem purgados e uma lista de itens que já foram purgados.
+
+

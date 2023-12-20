@@ -1,0 +1,28 @@
+---
+sidebar: sidebar 
+permalink: task_purging.html 
+keywords: netapp, saas backup, microsoft 365, purge, purged, purging, site collection, groups 
+summary: Você pode gerenciar seu serviço de várias maneiras no Backup SaaS do NetApp, incluindo a ativação de novos serviços, a desativação de serviços existentes, a limpeza de dados e o cancelamento de uma tarefa. 
+---
+= Limpe um usuário, um conjunto de sites ou um grupo do Microsoft 365
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Você pode remover completamente todos os dados associados a um usuário, coleção de sites ou grupo do Microsoft 365. Os dados purgados são recuperáveis por sete dias. Após sete dias, os dados são excluídos permanentemente e a licença do usuário é liberada automaticamente.
+
+.Passos
+. Clique no ícone de configuração image:configure_icon.gif["Captura de tela do ícone de configuração"]ao lado do ID de usuário do SaaS Backup no canto superior esquerdo.
+. Selecione *DEFINIÇÕES DA CONTA*.
+. CLIQUE EM *RETER E PURGAR*.
+. Em *Limpar dados*, selecione o *tipo de serviço* (Exchange, OneDrive ou SharePoint) no menu suspenso.
+. Procure o usuário, o conjunto de sites ou o grupo do Microsoft 365 que você deseja limpar. Para Microsoft Exchange Online ou OneDrive for Business, insira o nome do usuário ou do grupo Microsoft 365. No SharePoint Online, introduza o nome da coleção de sites. Observação: Se o usuário tiver uma caixa de correio de arquivo, o nome de usuário da caixa de correio de arquivo é prefixado por "in-Place Archive".
+. Quando o resultado da pesquisa retornar, clique em image:bluecircle_icon.gif["Ícone de sinal de mais azul"] para selecionar o usuário, coleção de sites ou grupo Microsoft 365.
+. Clique em *Salvar*.
+. Clique em *Yes* para confirmar que deseja limpar os dados.
+

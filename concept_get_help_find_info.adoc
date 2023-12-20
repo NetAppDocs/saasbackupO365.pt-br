@@ -1,0 +1,20 @@
+---
+sidebar: sidebar 
+permalink: concept_get_help_find_info.html 
+keywords: where to find more information, help, support 
+summary: Você pode obter ajuda e encontrar mais informações no fórum da comunidade e nos artigos da base de conhecimento do NetApp SaaS Backup para Microsoft 365. 
+---
+= Onde obter ajuda e encontrar mais informações
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+Você pode obter ajuda e encontrar mais informações no fórum da comunidade e nos artigos da base de conhecimento do NetApp SaaS Backup para Microsoft 365.
+
+Esses recursos podem ser acessados dentro do SaaS Backup através do link *Support* no menu de navegação.
+
+Você também pode enviar um e-mail para a equipe de suporte do SaaS Backup no NetApp.com.

@@ -1,0 +1,30 @@
+---
+sidebar: sidebar 
+permalink: task_adding_a_license.html 
+keywords: netapp, saas backup, microsoft 365, add, adding, release, license 
+summary: Você pode adicionar ou liberar uma licença. 
+---
+= Adicione uma licença
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Se você acabou de receber uma licença para uma assinatura paga, siga <<concept_paid_subscription_workflow.adoc#workflow-for-etting-started-with-a-paid-subscription-toSaaS-Backup-for-Office-365,fluxo de trabalho para começar com uma assinatura paga>>. Irá introduzir a sua chave de licença como parte do fluxo de trabalho.
+
+Se você já estiver usando o SaaS Backup, siga estas etapas para adicionar licenças adicionais.
+
+Os domínios de educação podem ter uma licença para o corpo docente e uma licença separada para os alunos.
+
+.Passos
+. Clique image:services.gif["Captura de tela do botão de serviços"] no painel de navegação esquerdo.
+. Clique image:bluecircle_icon.gif["Ícone de sinal de mais azul"] no canto direito.
+. Introduza as informações da licença.
+. Clique em *Validar assinatura*.
+. Clique em *seguinte*.
+. Clique em *Salvar*.
+
