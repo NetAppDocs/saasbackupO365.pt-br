@@ -7,7 +7,7 @@ settings:
   prod:
     pdf_enabled: true
     harmony_enabled: false
-  langs: pt-br,us-en,ja-jp,ko-kr,zh-cn,zh-tw,de-de,es-es,fr-fr,it-it
+  langs: pt-br,us-en,de-de,es-es,fr-fr,it-it,ja-jp,ko-kr,zh-cn,zh-tw
 sidebar:
   entries:
   - title: NetApp SaaS Backup para Microsoft 365
@@ -170,4 +170,4 @@ sidebar:
   - title: Onde obter ajuda e encontrar mais informações
     url: "/concept_get_help_find_info.html"
   - title: Avisos legais
-    url: "/reference_legal_notices.html"
+    url: "/legal-notices.html"
